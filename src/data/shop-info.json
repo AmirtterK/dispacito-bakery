@@ -1,0 +1,70 @@
+{
+  "name": "Dispacito",
+  "tagline": "Bakery • Coffee • Brunch",
+  "category": "Boutique Cafe & Artisanal Bakery",
+  "established": "Oran, Algeria",
+  "announcement": "Something new is coming • A fresh chapter is brewing",
+  "hero": {
+    "badge": "Artisanal Sanctuary",
+    "headline": "A Fresh Chapter Is Brewing.",
+    "subheadline": "Brunch. Coffee. Bakery. Something new is coming.",
+    "description": "Welcome to Dispacito — Oran's coastal boutique where artisanal viennoiserie, specialty espresso, and slow-crafted brunch meet refined elegance.",
+    "ctaMenu": "Explore The Menu",
+    "ctaLocation": "Visit Us"
+  },
+  "story": {
+    "title": "Crafted with Passion & Heritage",
+    "subtitle": "Nestled on the seaside corniche of Akid Lotfi",
+    "paragraphs": [
+      "At Dispacito, we believe coffee and pastry are daily rituals meant to be savored slowly. Our bakers greet the dawn with golden, flaky croissants and handcrafted confections, while our baristas dial in exquisite single-origin espresso with millimeter precision.",
+      "Whether you are joining us for an energizing morning macchiato, a lavish weekend brunch with friends, or an evening dessert under the warm Mediterranean breeze, Dispacito is your warm editorial home in Oran."
+    ],
+    "highlights": [
+      {
+        "label": "Open Daily",
+        "value": "7 / 7"
+      },
+      {
+        "label": "Hours",
+        "value": "08:30 – 23:00"
+      },
+      {
+        "label": "Community",
+        "value": "35K+ Coffee Lovers"
+      },
+      {
+        "label": "Location",
+        "value": "Akid Lotfi, Oran"
+      }
+    ]
+  },
+  "hours": {
+    "days": "Ouvert 7/7 (Every day)",
+    "time": "08:30 – 23:00",
+    "breakfastHours": "08:30 – 12:30",
+    "kitchenHours": "12:00 – 22:30"
+  },
+  "location": {
+    "address": "Frange maritime, Akid",
+    "neighborhood": "Akid Lotfi",
+    "city": "Oran",
+    "country": "Algeria",
+    "mapsUrl": "https://maps.app.goo.gl/ZC7Qk8hxhoSji96T8",
+    "embedQuery": "Dispacito Akid Oran",
+    "coordinates": {
+      "lat": 35.7299827,
+      "lng": -0.5861726
+    }
+  },
+  "contact": {
+    "phone": "+213 550 00 00 00",
+    "email": "contact@dispacito.dz",
+    "instagram": "https://www.instagram.com/dispacito_cake",
+    "instagramHandle": "@dispacito_cake"
+  },
+  "currency": {
+    "code": "DZD",
+    "symbol": "DA",
+    "position": "after"
+  }
+}

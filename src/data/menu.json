@@ -1,0 +1,563 @@
+{
+  "categories": [
+    {
+      "id": "all",
+      "name": "Full Collection",
+      "subtitle": "Everything we craft"
+    },
+    {
+      "id": "coffee",
+      "name": "Coffee & Teas",
+      "subtitle": "Single-origin espresso & artisan infusions"
+    },
+    {
+      "id": "bakery",
+      "name": "Bakery & Sweets",
+      "subtitle": "Flaky pastries, cakes & Middle Eastern delights"
+    },
+    {
+      "id": "brunch",
+      "name": "Brunch & Breakfast",
+      "subtitle": "Morning plates, platters & gourmet eggs"
+    },
+    {
+      "id": "restaurant",
+      "name": "Savory & Kitchen",
+      "subtitle": "Artisan pastas, stone-baked pizzas & grilled plates"
+    }
+  ],
+  "items": [
+    {
+      "id": "double-espresso",
+      "name": "Double Espresso",
+      "category": "coffee",
+      "price": 350,
+      "formattedPrice": "350 DA",
+      "description": "Rich and intense coffee made by forcing hot water through finely ground beans, delivering bold flavor and crema.",
+      "image": "/images/double-espresso.WebP",
+      "featured": true,
+      "badge": "Signature"
+    },
+    {
+      "id": "specialty-espresso",
+      "name": "Specialty Espresso",
+      "category": "coffee",
+      "price": 450,
+      "formattedPrice": "450 DA",
+      "description": "Crafted with carefully selected beans and precise brewing, offering a smooth body, balanced citrus notes, and aromatic finish.",
+      "image": "/images/specialty-espresso.WebP",
+      "featured": true,
+      "badge": "Single Origin"
+    },
+    {
+      "id": "caramel-latte",
+      "name": "Caramel Latte",
+      "category": "coffee",
+      "price": 550,
+      "formattedPrice": "550 DA",
+      "description": "Sweet and velvety blend of espresso, steamed whole milk, and handcrafted buttery caramel syrup, finished with microfoam.",
+      "image": "/images/caramel-latte.WebP",
+      "featured": false
+    },
+    {
+      "id": "cappuccino",
+      "name": "Cappuccino",
+      "category": "coffee",
+      "price": 500,
+      "formattedPrice": "500 DA",
+      "description": "Harmonious balance of double espresso, silky steamed milk, and a generous layer of dense, velvety milk foam.",
+      "image": "/images/cappuccino.WebP",
+      "featured": true,
+      "badge": "Classic"
+    },
+    {
+      "id": "hot-chocolate",
+      "name": "Hot Chocolate",
+      "category": "coffee",
+      "price": 550,
+      "formattedPrice": "550 DA",
+      "description": "Melted Belgian chocolate blended with creamy steamed milk and dusted with dark cocoa powder.",
+      "image": "/images/hot-chocolate.WebP",
+      "featured": false
+    },
+    {
+      "id": "pink-chocolate",
+      "name": "Pink Ruby Chocolate",
+      "category": "coffee",
+      "price": 600,
+      "formattedPrice": "600 DA",
+      "description": "A creamy, luscious drink made with steamed milk and genuine ruby cocoa beans, offering delicate berry notes and smooth texture.",
+      "image": "/images/pink-chocolate.WebP",
+      "featured": true,
+      "badge": "Boutique"
+    },
+    {
+      "id": "nutella-milk",
+      "name": "Nutella Warm Milk",
+      "category": "coffee",
+      "price": 550,
+      "formattedPrice": "550 DA",
+      "description": "Rich and comforting drink made with warm textured milk infused with hazelnut chocolate cream.",
+      "image": "/images/nutella-milk.WebP",
+      "featured": false
+    },
+    {
+      "id": "iced-matcha-latte",
+      "name": "Iced Ceremonial Matcha",
+      "category": "coffee",
+      "price": 650,
+      "formattedPrice": "650 DA",
+      "description": "Chilled and vibrant green tea elixir made from stone-ground Uji matcha and sweet oat milk over ice.",
+      "image": "/images/Iced-Matcha-Latte.WebP",
+      "featured": true,
+      "badge": "Popular"
+    },
+    {
+      "id": "chai-latte",
+      "name": "Spiced Chai Latte",
+      "category": "coffee",
+      "price": 500,
+      "formattedPrice": "500 DA",
+      "description": "Warm, fragrant black tea simmered with cardamom, cinnamon, cloves, ginger, and steamed milk.",
+      "image": "/images/chai-latte.WebP",
+      "featured": false
+    },
+    {
+      "id": "chamomile-tea",
+      "name": "Organic Chamomile",
+      "category": "coffee",
+      "price": 400,
+      "formattedPrice": "400 DA",
+      "description": "Soothing herbal infusion made from whole dried chamomile blossoms, offering calming floral aromas.",
+      "image": "/images/chamomile.WebP",
+      "featured": false
+    },
+    {
+      "id": "mocha",
+      "name": "Caffè Mocha",
+      "category": "coffee",
+      "price": 600,
+      "formattedPrice": "600 DA",
+      "description": "Rich espresso layered with artisan dark chocolate sauce, steamed milk, and a delicate swirl of crema.",
+      "image": "/images/Mocha.WebP",
+      "featured": false
+    },
+    {
+      "id": "masala-tea",
+      "name": "Artisanal Masala Tea",
+      "category": "coffee",
+      "price": 450,
+      "formattedPrice": "450 DA",
+      "description": "Slow-steeped royal tea leaves with crushed aromatic spices, sweet condensed notes, and a warming finish.",
+      "image": "/images/masala_tea.WebP",
+      "featured": false
+    },
+    {
+      "id": "turkish-coffee",
+      "name": "Authentic Turkish Coffee",
+      "category": "coffee",
+      "price": 450,
+      "formattedPrice": "450 DA",
+      "description": "Finely ground Arabica beans brewed in a traditional copper cezve, producing a thick foam and intense aroma.",
+      "image": "/images/turkish-coffee.webp",
+      "featured": false,
+      "badge": "Traditional"
+    },
+    {
+      "id": "spirulina-latte",
+      "name": "Spirulina Wellness Latte",
+      "category": "coffee",
+      "price": 600,
+      "formattedPrice": "600 DA",
+      "description": "Nutrient-packed blue-green superfood blend with almond milk and a touch of wild honey.",
+      "image": "/images/spirulina.WebP",
+      "featured": false
+    },
+    {
+      "id": "iced-americano",
+      "name": "Iced Americano",
+      "category": "coffee",
+      "price": 450,
+      "formattedPrice": "450 DA",
+      "description": "Double espresso shot poured over crystal clear ice and chilled filtered water for an energizing crisp cup.",
+      "image": "/images/Iced-Americano.WebP",
+      "featured": false
+    },
+    {
+      "id": "iced-latte",
+      "name": "Iced Velvet Latte",
+      "category": "coffee",
+      "price": 550,
+      "formattedPrice": "550 DA",
+      "description": "Fresh espresso gently poured over cold textured milk and ice cubes, creating silky layers.",
+      "image": "/images/iced-latte.WebP",
+      "featured": false
+    },
+    {
+      "id": "strawberry-frappe",
+      "name": "Strawberry Frappé",
+      "category": "coffee",
+      "price": 650,
+      "formattedPrice": "650 DA",
+      "description": "Ice-blended pure strawberries, fresh milk, and vanilla cream topped with light chantilly cream.",
+      "image": "/images/Strawberry-frappe.webp",
+      "featured": true,
+      "badge": "Summer Refresher"
+    },
+    {
+      "id": "croissant-beurre",
+      "name": "French Butter Croissant",
+      "category": "bakery",
+      "price": 300,
+      "formattedPrice": "300 DA",
+      "description": "Golden, flaky 27-layer butter pastry baked fresh daily in the Dispacito ovens with a honeycomb crumb.",
+      "image": "/images/croissant.WebP",
+      "featured": true,
+      "badge": "Bakery Star"
+    },
+    {
+      "id": "cinnamon-roll",
+      "name": "Glazed Cinnamon Roll",
+      "category": "bakery",
+      "price": 450,
+      "formattedPrice": "450 DA",
+      "description": "Warm, soft brioche swirl infused with Saigon cinnamon and coated with cream cheese frosting.",
+      "image": "/images/cinnamon-roll.WebP",
+      "featured": true,
+      "badge": "Freshly Baked"
+    },
+    {
+      "id": "chocolate-chip-cookie",
+      "name": "Gourmet Choc Chip Cookie",
+      "category": "bakery",
+      "price": 350,
+      "formattedPrice": "350 DA",
+      "description": "Thick-baked chewy center cookie loaded with chunks of 70% dark chocolate and sea salt flakes.",
+      "image": "/images/chocolate-chip-cookie.WebP",
+      "featured": false
+    },
+    {
+      "id": "classic-waffles",
+      "name": "Belgian Sugar Waffles",
+      "category": "bakery",
+      "price": 600,
+      "formattedPrice": "600 DA",
+      "description": "Crisp golden Brussels waffle served with pure maple drizzle, fresh berries, and powdered sugar.",
+      "image": "/images/Classic-Waffles.WebP",
+      "featured": false
+    },
+    {
+      "id": "french-toast",
+      "name": "Caramelized French Toast",
+      "category": "bakery",
+      "price": 750,
+      "formattedPrice": "750 DA",
+      "description": "Thick-cut brioche soaked in vanilla custard, seared in clarified butter, and finished with salted caramel.",
+      "image": "/images/French-test.WebP",
+      "featured": true,
+      "badge": "Brunch Favorite"
+    },
+    {
+      "id": "kunafa",
+      "name": "Traditional Kunafa",
+      "category": "bakery",
+      "price": 800,
+      "formattedPrice": "800 DA",
+      "description": "Crispy shredded kataifi pastry baked with melted sweet cheese and drenched in orange blossom syrup.",
+      "image": "/images/kunafa.WebP",
+      "featured": true,
+      "badge": "Chef Special"
+    },
+    {
+      "id": "kunafa-ice-cream",
+      "name": "Kunafa à la Mode",
+      "category": "bakery",
+      "price": 950,
+      "formattedPrice": "950 DA",
+      "description": "Warm golden kunafa paired with artisanal mastic vanilla ice cream and roasted pistachios.",
+      "image": "/images/kunafa-ice-cream.WebP",
+      "featured": true,
+      "badge": "House Signature"
+    },
+    {
+      "id": "ice-cream-cake",
+      "name": "Gelato Ice Cream Cake",
+      "category": "bakery",
+      "price": 900,
+      "formattedPrice": "900 DA",
+      "description": "Multi-layered chilled dessert with crunchy praline base, chocolate fudge, and Madagascar vanilla gelato.",
+      "image": "/images/Ice-cream-cake.WebP",
+      "featured": false
+    },
+    {
+      "id": "chocolate-cake",
+      "name": "Dark Truffle Chocolate Cake",
+      "category": "bakery",
+      "price": 850,
+      "formattedPrice": "850 DA",
+      "description": "Moist, velvety cocoa sponge filled with silky chocolate ganache and chocolate curls.",
+      "image": "/images/Chocolate-cake.WebP",
+      "featured": true,
+      "badge": "Decadent"
+    },
+    {
+      "id": "ice-cream-waffle",
+      "name": "Gelato Waffle Stack",
+      "category": "bakery",
+      "price": 850,
+      "formattedPrice": "850 DA",
+      "description": "Fresh warm waffle topped with two scoops of gelato, chocolate drizzle, and toasted almond slivers.",
+      "image": "/images/Ice-cream-waffle.WebP",
+      "featured": false
+    },
+    {
+      "id": "american-breakfast",
+      "name": "Grand American Breakfast",
+      "category": "brunch",
+      "price": 1200,
+      "formattedPrice": "1,200 DA",
+      "description": "Sunny-side eggs, crisp beef bacon, country sausages, golden hash browns, and fluffy pancakes with maple syrup.",
+      "image": "/images/American-breakfast.WebP",
+      "featured": true,
+      "badge": "Hearty"
+    },
+    {
+      "id": "english-breakfast",
+      "name": "Full English Breakfast",
+      "category": "brunch",
+      "price": 1300,
+      "formattedPrice": "1,300 DA",
+      "description": "Farm eggs, grilled beef sausage, slow-baked beans, garlic button mushrooms, seared tomato, and toasted sourdough.",
+      "image": "/images/english-breakfast.WebP",
+      "featured": true,
+      "badge": "Classic"
+    },
+    {
+      "id": "meat-lovers-breakfast",
+      "name": "Meat Lovers Morning Platter",
+      "category": "brunch",
+      "price": 1400,
+      "formattedPrice": "1,400 DA",
+      "description": "Loaded plate featuring sliced steak tips, artisan sausage, crispy bacon strips, scrambled eggs, and herbed potatoes.",
+      "image": "/images/meat-lovers.WebP",
+      "featured": false
+    },
+    {
+      "id": "sausage-breakfast",
+      "name": "Artisan Sausage Breakfast",
+      "category": "brunch",
+      "price": 1100,
+      "formattedPrice": "1,100 DA",
+      "description": "Savory grilled sausages with two poached eggs, roasted cherry tomatoes, and warm toasted baguette.",
+      "image": "/images/Breakfast-sausage.WebP",
+      "featured": false
+    },
+    {
+      "id": "boricuas",
+      "name": "Boricuas Sunrise Bowl",
+      "category": "brunch",
+      "price": 1250,
+      "formattedPrice": "1,250 DA",
+      "description": "Caramelized plantains, seasoned meats, scrambled eggs, and avocado served with fresh artisanal toast.",
+      "image": "/images/boricuas.WebP",
+      "featured": false
+    },
+    {
+      "id": "guacamole-omelette",
+      "name": "Avocado & Guacamole Omelette",
+      "category": "brunch",
+      "price": 950,
+      "formattedPrice": "950 DA",
+      "description": "Three farm eggs folded with fresh lime guacamole, feta crumbles, and served with a garden greens salad.",
+      "image": "/images/Guacamole-omelette.WebP",
+      "featured": true,
+      "badge": "Healthy Choice"
+    },
+    {
+      "id": "iranian-breakfast",
+      "name": "Persian Herb & Feta Breakfast",
+      "category": "brunch",
+      "price": 900,
+      "formattedPrice": "900 DA",
+      "description": "Traditional morning spread of fresh mint, walnuts, creamy feta, local honey, and warm flatbread.",
+      "image": "/images/iran-breakfast.WebP",
+      "featured": false
+    },
+    {
+      "id": "pomodora-breakfast",
+      "name": "Pomodoro Shakshuka Eggs",
+      "category": "brunch",
+      "price": 950,
+      "formattedPrice": "950 DA",
+      "description": "Farm eggs gently poached in a rich simmered sauce of San Marzano tomatoes, bell peppers, garlic, and cumin.",
+      "image": "/images/pomodora-breakfast.WebP",
+      "featured": true,
+      "badge": "Chef Special"
+    },
+    {
+      "id": "fruit-plate",
+      "name": "Fresh Seasonal Fruit Platter",
+      "category": "brunch",
+      "price": 700,
+      "formattedPrice": "700 DA",
+      "description": "Chef selection of chilled seasonal fruits, berries, and mint with a side of orange blossom honey.",
+      "image": "/images/fresh_fruit_plate.WebP",
+      "featured": false
+    },
+    {
+      "id": "tenderloin-steak",
+      "name": "Prime Grilled Steak",
+      "category": "restaurant",
+      "price": 2400,
+      "formattedPrice": "2,400 DA",
+      "description": "Tender cut of prime beef grilled to your liking with garlic rosemary butter, served with crispy fries or roasted greens.",
+      "image": "/images/Steak.WebP",
+      "featured": true,
+      "badge": "Chef Selection"
+    },
+    {
+      "id": "lasagna-bolognese",
+      "name": "Artisanal Lasagna al Forno",
+      "category": "restaurant",
+      "price": 1800,
+      "formattedPrice": "1,800 DA",
+      "description": "Handmade pasta sheets layered with slow-cooked beef ragù, velvety béchamel sauce, and bubbling aged mozzarella.",
+      "image": "/images/Lasagna.WebP",
+      "featured": true,
+      "badge": "Customer Favorite"
+    },
+    {
+      "id": "chicken-alfredo",
+      "name": "Fettuccine Chicken Alfredo",
+      "category": "restaurant",
+      "price": 1750,
+      "formattedPrice": "1,750 DA",
+      "description": "Tender grilled chicken tossed with ribbon pasta in a decadent garlic Parmesan cream sauce.",
+      "image": "/images/Chicken-Alfredo.WebP",
+      "featured": false
+    },
+    {
+      "id": "beef-alfredo",
+      "name": "Tagliatelle Beef Alfredo",
+      "category": "restaurant",
+      "price": 1850,
+      "formattedPrice": "1,850 DA",
+      "description": "Seared beef strips tossed in silky Alfredo cream sauce and finished with freshly cracked black peppercorn.",
+      "image": "/images/Beef-Alfredo.WebP",
+      "featured": false
+    },
+    {
+      "id": "chicken-pesto-pasta",
+      "name": "Genovese Chicken Pesto",
+      "category": "restaurant",
+      "price": 1750,
+      "formattedPrice": "1,750 DA",
+      "description": "Al dente penne folded in aromatic basil pesto with succulent chicken, pine nuts, and shaved pecorino.",
+      "image": "/images/Chicken-pesto.WebP",
+      "featured": false
+    },
+    {
+      "id": "roast-beef-panini",
+      "name": "Tuscan Roast Beef Panini",
+      "category": "restaurant",
+      "price": 1300,
+      "formattedPrice": "1,300 DA",
+      "description": "Crusty ciabatta stuffed with thin-carved roast beef, melted provolone, caramelized onions, and truffle aioli.",
+      "image": "/images/Roast-Beef-Panini.WebP",
+      "featured": false
+    },
+    {
+      "id": "breaded-fillet",
+      "name": "Golden Breaded Fillet",
+      "category": "restaurant",
+      "price": 1600,
+      "formattedPrice": "1,600 DA",
+      "description": "Panko-crusted delicate fillet fried golden, accompanied by herb tartar sauce, seasoned rice, and crisp slaw.",
+      "image": "/images/Breaded-fillet-plate.WebP",
+      "featured": false
+    },
+    {
+      "id": "shredded-kebab",
+      "name": "Gourmet Shredded Kebab",
+      "category": "restaurant",
+      "price": 1500,
+      "formattedPrice": "1,500 DA",
+      "description": "Spiced tender meat skewer pulled and served with aromatic basmati rice, charred tomatoes, and tahini drizzle.",
+      "image": "/images/Shredded-kebab.WebP",
+      "featured": false
+    },
+    {
+      "id": "margherita-pizza",
+      "name": "Classic Margherita DOC",
+      "category": "restaurant",
+      "price": 1200,
+      "formattedPrice": "1,200 DA",
+      "description": "Stone-baked dough, San Marzano tomato coulis, fior di latte mozzarella, fresh basil, and extra virgin olive oil.",
+      "image": "/images/Margherita-pizza.WebP",
+      "featured": true,
+      "badge": "Stone Baked"
+    },
+    {
+      "id": "pepperoni-pizza",
+      "name": "Diavola Pepperoni Pizza",
+      "category": "restaurant",
+      "price": 1500,
+      "formattedPrice": "1,500 DA",
+      "description": "Crisp hand-tossed crust with spicy beef pepperoni slices, rich tomato sauce, and molten mozzarella.",
+      "image": "/images/Pepperoni-pizza.WebP",
+      "featured": true,
+      "badge": "Best Seller"
+    },
+    {
+      "id": "chicken-pesto-pizza",
+      "name": "Chicken Basil Pesto Pizza",
+      "category": "restaurant",
+      "price": 1650,
+      "formattedPrice": "1,650 DA",
+      "description": "Artisan pizza topped with grilled chicken breast, house pesto, mozzarella, sun-dried tomatoes, and arugula.",
+      "image": "/images/Chicken-Pesto-Pizza.WebP",
+      "featured": false
+    },
+    {
+      "id": "garlic-steak-pizza",
+      "name": "Garlic Steak & Truffle Pizza",
+      "category": "restaurant",
+      "price": 1800,
+      "formattedPrice": "1,800 DA",
+      "description": "Thin-sliced seared steak, roasted garlic cloves, caramelized shallots, mushrooms, and rosemary oil.",
+      "image": "/images/Garlic-Steak-Pizza.WebP",
+      "featured": true,
+      "badge": "Gourmet"
+    },
+    {
+      "id": "vegetable-pizza",
+      "name": "Ortolana Garden Pizza",
+      "category": "restaurant",
+      "price": 1300,
+      "formattedPrice": "1,300 DA",
+      "description": "Grilled zucchini, roasted bell peppers, baby mushrooms, Kalamata olives, and fresh mozzarella.",
+      "image": "/images/Vegetable-pizza.webp",
+      "featured": false
+    },
+    {
+      "id": "classic-fries",
+      "name": "Hand-Cut Crispy Fries",
+      "category": "restaurant",
+      "price": 450,
+      "formattedPrice": "450 DA",
+      "description": "Double-fried russet potatoes with coarse sea salt, rosemary, and homemade garlic aioli.",
+      "image": "/images/classic-fries.WebP",
+      "featured": false
+    },
+    {
+      "id": "beef-fries",
+      "name": "Loaded Steak Fries",
+      "category": "restaurant",
+      "price": 950,
+      "formattedPrice": "950 DA",
+      "description": "Crispy golden fries smothered with spiced tender beef, cheddar cheese fondue, and scallions.",
+      "image": "/images/Beef-fries.WebP",
+      "featured": false
+    }
+  ]
+}

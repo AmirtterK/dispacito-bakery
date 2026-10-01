@@ -1,0 +1,199 @@
+@import "tailwindcss";
+
+:root {
+  --color-wine: #3E151E;
+  --color-wine-dark: #2B0D14;
+  --color-wine-deep: #1F070C;
+  --color-wine-accent: #6E2A37;
+  --color-beige: #D5C2AE;
+  --color-beige-light: #EFE7DE;
+  --color-beige-pale: #FAF7F2;
+  --color-gold: #C69A68;
+  --color-dark: #2B0D14;
+}
+
+@theme inline {
+  --font-editorial: var(--font-editorial), Georgia, serif;
+  --font-sans: var(--font-sans), system-ui, sans-serif;
+  --color-wine: var(--color-wine);
+  --color-beige: var(--color-beige);
+}
+
+.font-editorial {
+  font-family: var(--font-editorial), Georgia, "Playfair Display", serif;
+}
+
+.font-sans {
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+}
+
+/* =========================================================================
+   SCROLL REVEAL ANIMATIONS (BAKERY TEMPLATE SPECIFICATION)
+   ========================================================================= */
+
+.animate-left {
+  opacity: 0;
+  transform: translateX(-45px);
+  transition: opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1), transform 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.animate-right {
+  opacity: 0;
+  transform: translateX(45px);
+  transition: opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1), transform 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.animate-top {
+  opacity: 0;
+  transform: translateY(-40px);
+  transition: opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1), transform 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.animate-bottom {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1), transform 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.animate-scale {
+  opacity: 0;
+  transform: scale(0.92);
+  transition: opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1), transform 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.animate-fade {
+  opacity: 0;
+  transition: opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity;
+}
+
+.animate-left.is-revealed,
+.animate-right.is-revealed,
+.animate-top.is-revealed,
+.animate-bottom.is-revealed,
+.animate-scale.is-revealed,
+.animate-fade.is-revealed {
+  opacity: 1;
+  transform: translate(0, 0) scale(1);
+}
+
+/* Stagger Delay Classes */
+.delay-100 { transition-delay: 0.1s !important; }
+.delay-200 { transition-delay: 0.2s !important; }
+.delay-300 { transition-delay: 0.3s !important; }
+.delay-400 { transition-delay: 0.4s !important; }
+.delay-500 { transition-delay: 0.5s !important; }
+.delay-600 { transition-delay: 0.6s !important; }
+
+/* =========================================================================
+   KEYFRAME ANIMATIONS
+   ========================================================================= */
+
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleBigger {
+  0% {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes spinSlow {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes showsUp {
+  0% {
+    opacity: 0;
+    transform: translateY(0);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-6px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-12px);
+  }
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(198, 154, 104, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(198, 154, 104, 0.45);
+  }
+}
+
+@keyframes cardFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-card-fade {
+  animation: cardFadeIn 0.55s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.animate-fadeUp {
+  animation: fadeUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-scaleBigger {
+  animation: scaleBigger 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-spin-slow {
+  animation: spinSlow 20s linear infinite;
+}
+
+.animate-showsUp {
+  animation: showsUp 2s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+}
+
+/* Custom Scrollbar in Warm Editorial tones */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FAF7F2;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D5C2AE;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3E151E;
+}
