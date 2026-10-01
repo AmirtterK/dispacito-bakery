@@ -100,7 +100,7 @@ export function Hero() {
 
           {/* Bottom Wordmark & Category Indicators */}
           <div className="relative z-10 pt-8 border-t border-[#D5C2AE]/15 flex flex-wrap items-center justify-between gap-4 animate-bottom delay-200">
-            <DispacitoLogo variant="light" size="sm" showSubtitle={true} />
+            <DispacitoLogo variant="light" size="sm" showSubtitle={false} />
 
             <div className="flex items-center gap-6 text-xs text-[#D5C2AE]/80 tracking-widest uppercase">
               <span>Fresh Viennoiserie</span>
