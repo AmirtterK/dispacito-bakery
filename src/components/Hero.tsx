@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowDownRight, MapPin, Coffee } from "lucide-react";
 import shopData from "@/data/shop-info.json";
+import { DispacitoLogo } from "./DispacitoLogo";
 
 export function Hero() {
   return (
@@ -99,14 +100,7 @@ export function Hero() {
 
           {/* Bottom Wordmark & Category Indicators */}
           <div className="relative z-10 pt-8 border-t border-[#D5C2AE]/15 flex flex-wrap items-center justify-between gap-4 animate-bottom delay-200">
-            <div>
-              <span className="font-editorial text-2xl font-bold tracking-tight text-[#FAF7F2]">
-                Dispacito
-              </span>
-              <span className="block text-[0.65rem] tracking-[0.25em] uppercase text-[#D5C2AE]">
-                Bakery • Coffee • Brunch
-              </span>
-            </div>
+            <DispacitoLogo variant="light" size="sm" showSubtitle={true} />
 
             <div className="flex items-center gap-6 text-xs text-[#D5C2AE]/80 tracking-widest uppercase">
               <span>Fresh Viennoiserie</span>

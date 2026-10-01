@@ -8,23 +8,32 @@ interface LogoProps {
   variant?: "light" | "dark" | "duo";
   size?: "sm" | "md" | "lg" | "xl";
   showSubtitle?: boolean;
-  useImage?: boolean;
   className?: string;
 }
+
+const sizeMap = {
+  sm: { h: 28, w: 112 },
+  md: { h: 36, w: 144 },
+  lg: { h: 48, w: 192 },
+  xl: { h: 64, w: 256 },
+};
 
 export function DispacitoLogo({
   variant = "light",
   size = "md",
   showSubtitle = true,
-  useImage = false,
   className = "",
 }: LogoProps) {
-  const textColor =
-    variant === "dark"
-      ? "text-[#3E151E]"
+  const { h, w } = sizeMap[size];
+
+  // On dark backgrounds (Navbar, Footer): invert the dark burgundy logo to white
+  // On light backgrounds: show the natural dark burgundy logo
+  const filterStyle =
+    variant === "light"
+      ? { filter: "brightness(0) invert(1)" } // dark logo → pure white
       : variant === "duo"
-      ? "text-[#D5C2AE]"
-      : "text-[#FAF7F2]";
+      ? { filter: "brightness(0) invert(0.88) sepia(0.1)" } // slightly warm white
+      : {}; // dark/natural — no filter
 
   const subColor =
     variant === "dark"
@@ -33,43 +42,33 @@ export function DispacitoLogo({
       ? "text-[#FAF7F2]/80"
       : "text-[#D5C2AE]";
 
-  const sizeClasses = {
-    sm: "text-2xl",
-    md: "text-3xl md:text-4xl",
-    lg: "text-4xl md:text-5xl",
-    xl: "text-5xl md:text-6xl",
-  }[size];
-
   return (
-    <Link href="/" className={`inline-flex flex-col items-center group text-center select-none ${className}`}>
-      {useImage ? (
-        <div className="relative w-12 h-12 rounded-full overflow-hidden border border-[#D5C2AE]/40 shadow-sm">
-          <Image
-            src="/brand/logo.jpg"
-            alt="Dispacito Logo"
-            fill
-            className="object-cover group-hover:scale-105 transition-transform duration-300"
-          />
-        </div>
-      ) : (
-        <>
-          <span
-            className={`font-editorial font-bold tracking-tight transition-transform duration-300 group-hover:scale-[1.02] ${textColor} ${sizeClasses}`}
-            style={{
-              letterSpacing: "-0.02em",
-              textShadow: variant === "light" ? "0 2px 10px rgba(0,0,0,0.15)" : "none",
-            }}
-          >
-            Dispacito
-          </span>
-          {showSubtitle && (
-            <span
-              className={`text-[0.62rem] md:text-[0.68rem] tracking-[0.28em] uppercase font-medium mt-0.5 ${subColor}`}
-            >
-              Bakery • Coffee • Brunch
-            </span>
-          )}
-        </>
+    <Link
+      href="/"
+      className={`inline-flex flex-col items-start group select-none ${className}`}
+    >
+      <Image
+        src="/images/dispacito-logo.jpg"
+        alt="Dispacito"
+        width={w * 2}
+        height={h}
+        style={{
+          ...filterStyle,
+          height: `${h}px`,
+          width: "auto",
+          maxWidth: "100%",
+          objectFit: "contain",
+          transition: "opacity 0.2s ease",
+        }}
+        className="group-hover:opacity-80 transition-opacity duration-200"
+        priority
+      />
+      {showSubtitle && (
+        <span
+          className={`text-[0.62rem] md:text-[0.68rem] tracking-[0.28em] uppercase font-medium mt-1 ${subColor}`}
+        >
+          Bakery • Coffee • Brunch
+        </span>
       )}
     </Link>
   );

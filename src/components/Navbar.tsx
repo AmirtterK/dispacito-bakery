@@ -28,14 +28,7 @@ export function Navbar() {
     >
       <div className="container mx-auto px-6 md:px-12 flex items-center justify-between max-w-7xl">
         {/* Left Side: Brand Logo */}
-        <Link href="/" className="flex flex-col items-start group select-none">
-          <span className="font-editorial text-2xl sm:text-3xl font-bold tracking-tight text-white group-hover:text-[#D5C2AE] transition-colors leading-none">
-            DISPACITO
-          </span>
-          <span className="text-[0.62rem] sm:text-[0.68rem] tracking-[0.32em] uppercase font-medium text-[#D5C2AE] mt-1">
-            BAKERY • COFFEE • BRUNCH
-          </span>
-        </Link>
+        <DispacitoLogo variant="light" size="md" showSubtitle={true} />
 
         {/* Right Side: Clean Horizontal Navigation Links matching the screenshot */}
         <div className="hidden md:flex items-center gap-8 lg:gap-10">
