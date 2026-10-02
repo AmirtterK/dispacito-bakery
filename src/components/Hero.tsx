@@ -22,11 +22,11 @@ export function Hero() {
             D
           </div>
 
-          {/* Top Editorial Overline (No Pill Badges) */}
+          {/* Top Editorial Overline */}
           <div className="relative z-10 flex items-center justify-between gap-4 mb-8 animate-top">
             <div className="flex items-center gap-3 text-xs tracking-[0.32em] uppercase text-[#D5C2AE] font-medium">
               <span className="w-6 h-[1px] bg-[#C69A68]" />
-              <span>Oran • Coastal Sanctuary</span>
+              <span>Oran • Sanctuaire Côtier</span>
             </div>
 
             <span className="text-[#D5C2AE]/60 text-xs tracking-[0.25em] uppercase font-light hidden sm:inline-block">
@@ -34,13 +34,13 @@ export function Hero() {
             </span>
           </div>
 
-          {/* Central Editorial Statement & Line Art */}
+          {/* Central Editorial Statement */}
           <div className="relative z-10 my-auto py-6 animate-left delay-100">
             <div className="relative inline-block mb-4">
               <h1 className="font-editorial text-4xl sm:text-6xl md:text-7xl lg:text-7xl xl:text-8xl font-bold tracking-tight text-[#FAF7F2] leading-[1.04]">
-                A FRESH <br />
-                <span className="font-editorial italic font-normal text-[#D5C2AE]">CHAPTER</span> <br />
-                IS BREWING.
+                UN NOUVEAU <br />
+                <span className="font-editorial italic font-normal text-[#D5C2AE]">CHAPITRE</span> <br />
+                S'OUVRE.
               </h1>
 
               {/* Minimal Line Art illustration overlay */}
@@ -68,8 +68,8 @@ export function Hero() {
             </div>
 
             <p className="text-lg sm:text-xl md:text-2xl text-[#D5C2AE] font-light tracking-wide max-w-xl mb-4 leading-relaxed">
-              Brunch. Coffee. Bakery. <br />
-              <span className="text-[#FAF7F2] font-normal">Something new is coming to Oran.</span>
+              Brunch. Café. Boulangerie. <br />
+              <span className="text-[#FAF7F2] font-normal">Quelque chose de nouveau arrive à Oran.</span>
             </p>
 
             <p className="text-sm md:text-base text-[#FAF7F2]/75 max-w-lg mb-8 font-light leading-relaxed">
@@ -103,18 +103,18 @@ export function Hero() {
             <DispacitoLogo variant="light" size="sm" showSubtitle={false} />
 
             <div className="flex items-center gap-6 text-xs text-[#D5C2AE]/80 tracking-widest uppercase">
-              <span>Fresh Viennoiserie</span>
+              <span>Viennoiserie Fraîche</span>
               <span>•</span>
-              <span>Espresso Bar</span>
+              <span>Bar Espresso</span>
               <span>•</span>
-              <span>Gourmet Kitchen</span>
+              <span>Cuisine Gastronomique</span>
             </div>
           </div>
         </div>
 
-        {/* RIGHT PANEL: Warm Oatmeal Beige Section with Vertical Typography */}
+        {/* RIGHT PANEL: Warm Oatmeal Beige Section */}
         <div className="lg:col-span-5 xl:col-span-4 bg-[#D5C2AE] text-[#3E151E] pt-28 sm:pt-32 md:pt-36 pb-12 sm:pb-16 px-8 sm:px-12 lg:px-12 flex flex-col justify-between relative overflow-hidden animate-right">
-          {/* Vertical Giant Typography running down side (Imitating user screenshot) */}
+          {/* Vertical Giant Typography */}
           <div
             aria-hidden="true"
             className="hidden lg:block absolute right-4 top-1/2 -translate-y-1/2 select-none pointer-events-none text-[#3E151E]/15 font-editorial font-bold text-8xl tracking-wider uppercase origin-center rotate-90 animate-fade delay-300"
@@ -123,63 +123,63 @@ export function Hero() {
             Dispacito
           </div>
 
-          {/* Top Info Card (Clean Editorial Style) */}
+          {/* Top Info Card */}
           <div className="relative z-10 space-y-4 animate-top delay-100">
             <div className="flex items-center justify-between border-b border-[#3E151E]/20 pb-4">
               <span className="text-xs uppercase tracking-[0.28em] font-medium text-[#6E2A37]">
-                Atelier Sanctuary
+                Atelier Sanctuaire
               </span>
               <span className="text-xs uppercase tracking-[0.25em] font-semibold text-[#3E151E]">
-                Open 7/7
+                Ouvert 7/7
               </span>
             </div>
 
             <h2 className="font-editorial text-2xl sm:text-3xl font-bold leading-tight text-[#3E151E]">
-              Every morning begins with golden butter and fresh grind.
+              Chaque matin s'éveille au beurre doré et au café fraîchement torréfié.
             </h2>
             <p className="text-sm text-[#3E151E]/80 leading-relaxed font-normal">
-              Located on the maritime fringe of Akid Lotfi, our doors open every morning at 08:30 for travelers, neighbors, and connoisseurs.
+              Situé en bordure maritime d'Akid Lotfi, nos portes s'ouvrent chaque matin dès 08h30 pour les voyageurs, les voisins et les connaisseurs.
             </p>
           </div>
 
-          {/* Visual Showcase Card with Logo / Graphic */}
+          {/* Visual Showcase Card */}
           <div className="relative z-10 my-8 animate-scale delay-200">
-            <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-[#3E151E]/20 bg-[#3E151E] group hover:-translate-y-1.5 transition-transform duration-500">
-              <div className="aspect-[4/3] relative">
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-[#3E151E]/20 group hover:-translate-y-1.5 transition-transform duration-500">
+              <div className="aspect-[4/5] relative overflow-hidden">
                 <Image
-                  src="/images/burgundy-truffle-bomb.png"
-                  alt="Dispacito Burgundy Truffle Praline"
+                  src="/images/red-mirror-cake-hero.jpg"
+                  alt="Entremet Miroir aux Fruits Rouges — Dispacito"
                   fill
                   sizes="(max-width: 768px) 100vw, 450px"
-                  className="object-cover group-hover:scale-110 transition-transform duration-700 opacity-90"
+                  className="object-cover object-center group-hover:scale-110 transition-transform duration-700"
                   priority
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#3E151E] via-transparent to-black/20" />
-              </div>
 
-              <div className="p-5 text-[#FAF7F2] relative -mt-10">
-                <span className="text-[0.68rem] uppercase tracking-[0.3em] text-[#C69A68] font-semibold block mb-1">
-                  Single Origin & Viennoiserie
-                </span>
-                <h3 className="font-editorial text-xl font-bold">27-Layer Butter Croissant</h3>
-                <p className="text-xs text-[#D5C2AE] mt-1 line-clamp-2">
-                  Hand-laminated daily with pure European butter and paired with our single-origin roast.
-                </p>
+                {/* Text overlay: gradient starts at the bottom edge of the pic and fades upward */}
+                <div className="absolute inset-x-0 bottom-0 px-5 pb-5 pt-28 text-[#FAF7F2] bg-gradient-to-t from-[#3E151E] via-[#3E151E]/80 to-transparent">
+                  <span className="text-[0.68rem] uppercase tracking-[0.3em] text-[#C69A68] font-semibold block mb-1">
+                    Pâtisserie Fine & Entremets
+                  </span>
+                  <h3 className="font-editorial text-xl font-bold">Entremet Miroir Fruits Rouges</h3>
+                  <p className="text-xs text-[#D5C2AE] mt-1 line-clamp-2">
+                    Mousse framboise, glaçage miroir rouge laqué, mûres fraîches et pensée comestible.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
 
-          {/* Quick Schedule Footer on Beige Panel */}
+          {/* Quick Schedule Footer */}
           <div className="relative z-10 pt-4 border-t border-[#3E151E]/20 flex items-center justify-between text-xs tracking-wider uppercase font-medium text-[#3E151E] animate-bottom delay-300">
             <div className="flex items-center gap-2">
               <Coffee className="w-4 h-4 text-[#6E2A37]" />
-              <span>Espresso & Bakery from 08:30</span>
+              <span>Espresso & Viennoiserie dès 08h30</span>
             </div>
             <a
               href="#story"
               className="text-[#3E151E] hover:text-[#6E2A37] underline underline-offset-4"
             >
-              Learn More
+              En Savoir Plus
             </a>
           </div>
         </div>

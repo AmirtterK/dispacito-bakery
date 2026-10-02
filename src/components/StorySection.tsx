@@ -17,7 +17,7 @@ export function StorySection() {
       <div className="container mx-auto px-4 md:px-8 relative z-10 max-w-7xl space-y-32 md:space-y-44">
         
         {/* =========================================================================
-            CHAPTER I: THE DAWN & THE HEARTH
+            CHAPITRE I: LA PAUSE FRAÎCHE
             ========================================================================= */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           {/* Chapter I Image: Floating Gallery Frame with Offset Accent */}
@@ -33,8 +33,8 @@ export function StorySection() {
               <div className="relative rounded-[2.2rem] overflow-hidden border border-[#D5C2AE]/30 bg-[#280B12] p-3 sm:p-4 shadow-2xl">
                 <div className="relative aspect-[4/5] w-full rounded-[1.8rem] overflow-hidden">
                   <Image
-                    src="/images/red-mirror-cake.png"
-                    alt="Dispacito Red Mirror Glaze Cake"
+                    src="/images/coffee-frappe.WebP"
+                    alt="Café frappé glacé Dispacito"
                     fill
                     sizes="(max-width: 1024px) 100vw, 550px"
                     className="object-cover group-hover:scale-108 transition-transform duration-700 ease-out"
@@ -43,14 +43,14 @@ export function StorySection() {
 
                   {/* Corner stamp details */}
                   <div className="absolute top-4 left-4 text-[0.65rem] tracking-[0.3em] uppercase text-[#D5C2AE] font-light bg-black/40 backdrop-blur-md px-3 py-1 rounded-full border border-white/10">
-                    Atelier 05:00 AM
+                    Pause glacée
                   </div>
 
                   <div className="absolute bottom-4 left-4 right-4 text-xs text-[#FAF7F2]/90 font-light">
                     <span className="font-editorial italic text-[#C69A68] text-sm block mb-0.5">
-                      Viennoiserie Pure Beurre
+                      Café frappé
                     </span>
-                    27 micro-laminations crafted before the first light in Oran.
+                    Café, lait et fraîcheur réunis dans un frappé onctueux.
                   </div>
                 </div>
               </div>
@@ -61,76 +61,76 @@ export function StorySection() {
           <div className="lg:col-span-6 space-y-6 animate-right delay-100">
             <div className="flex items-center gap-3 text-xs tracking-[0.32em] uppercase text-[#D5C2AE] font-medium">
               <span className="w-8 h-[1px] bg-[#C69A68]" />
-              <span>Chapter I • The Dawn & The Hearth</span>
+              <span>Chapitre I • La Pause Fraîche</span>
             </div>
 
             <h2 className="font-editorial text-4xl sm:text-5xl lg:text-6xl font-bold text-[#FAF7F2] leading-[1.08]">
-              Where Every Morning Awakens to Golden Butter.
+              La Fraîcheur d&apos;un Café Frappé, à Tout Moment.
             </h2>
 
             <p className="font-editorial italic text-xl text-[#D5C2AE] font-normal">
-              Slow fermentation, European butter, and the quiet Mediterranean dawn.
+              Café intense, lait onctueux et fraîcheur glacée.
             </p>
 
             <div className="space-y-4 text-sm sm:text-base text-[#FAF7F2]/80 leading-relaxed font-light">
               <p>
-                Long before the first guest steps onto the corniche of Akid Lotfi, our ovens are already humming. Baking is not an automated process at Dispacito — it is a tactile, slow-paced art where flour, temperature, and patience collide.
+                Pour une pause fraîche à Akid Lotfi, notre café frappé marie la richesse du café à une texture douce et glacée. Une recette simple, préparée avec soin et idéale à savourer à tout moment de la journée.
               </p>
               <p>
-                Each croissant undergoes a precise seventy-two-hour cold fermentation process, allowing the dough to develop deep aromatic complexities. Hand-laminated layer upon layer with pure cultured butter, our pastries emerge golden, shatteringly crisp on the outside, and soft with an airy honeycomb crumb within.
+                Servi bien frais, il accompagne une matinée ensoleillée comme une pause après le déjeuner, avec l&apos;équilibre gourmand du café et du lait.
               </p>
               <p>
-                It is this quiet devotion to purity that transforms a simple morning bite into an unforgettable daily ritual.
+                Retrouvez le plaisir d&apos;un classique glacé, généreux et réconfortant.
               </p>
             </div>
 
             <div className="pt-2 flex items-center gap-6 text-xs tracking-[0.25em] uppercase text-[#C69A68]">
-              <span>72-Hour Dough</span>
+              <span>Café</span>
               <span>•</span>
-              <span>Pure Butter</span>
+              <span>Glacé</span>
               <span>•</span>
-              <span>Baked Fresh Daily</span>
+              <span>Onctueux</span>
             </div>
           </div>
         </div>
 
         {/* =========================================================================
-            CHAPTER II: THE ALCHEMY OF EXTRACTION (Alternating Layout)
+            CHAPITRE II: LA DOUCEUR DU CHEESECAKE
             ========================================================================= */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           {/* Chapter II Story Text (Left) */}
           <div className="lg:col-span-6 space-y-6 order-2 lg:order-1 animate-left delay-100">
             <div className="flex items-center gap-3 text-xs tracking-[0.32em] uppercase text-[#D5C2AE] font-medium">
               <span className="w-8 h-[1px] bg-[#C69A68]" />
-              <span>Chapter II • The Alchemy of Extraction</span>
+              <span>Chapitre II • La Douceur du Cheesecake</span>
             </div>
 
             <h2 className="font-editorial text-4xl sm:text-5xl lg:text-6xl font-bold text-[#FAF7F2] leading-[1.08]">
-              Millimeter Precision in Every Pour.
+              Un Cheesecake Fondant, Nappé de Chocolat.
             </h2>
 
             <p className="font-editorial italic text-xl text-[#D5C2AE] font-normal">
-              High-altitude Arabica beans, calibrated pressure, and silky microfoam.
+              Une part généreuse, une texture fondante et un filet de chocolat.
             </p>
 
             <div className="space-y-4 text-sm sm:text-base text-[#FAF7F2]/80 leading-relaxed font-light">
               <p>
-                We look at espresso through the lens of craftsmanship. A single millimeter adjustment on our grinders alters the extraction flow rate; a two-degree variation in water temperature unlocks entirely distinct notes of bergamot, dark cacao, or roasted hazelnuts.
+                Notre cheesecake séduit par son cœur crémeux et sa douceur délicate. Sa part généreuse révèle une texture lisse et fondante à chaque bouchée.
               </p>
               <p>
-                Our baristas dial in our grinders multiple times throughout the day to adapt to humidity and temperature by the seaside. Whether you order an intense ristretto, a smooth velvety flat white, or an iced ceremonial matcha latte, every cup is calibrated with scientific exactness and poured with warmth.
+                Le nappage de chocolat apporte une note intense qui équilibre la douceur du gâteau. À partager ou à garder pour soi, c&apos;est une pause gourmande qui accompagne parfaitement un café.
               </p>
               <p>
-                There are no shortcuts here. Just the sacred chemistry of water, pressure, and carefully sourced beans.
+                Servi à l&apos;assiette et nappé au dernier moment, ce dessert met à l&apos;honneur le plaisir des choses simples et bien faites.
               </p>
             </div>
 
             <div className="pt-2 flex items-center gap-6 text-xs tracking-[0.25em] uppercase text-[#C69A68]">
-              <span>Single Origin</span>
+              <span>Crémeux</span>
               <span>•</span>
-              <span>9-Bar Extraction</span>
+              <span>Chocolat</span>
               <span>•</span>
-              <span>65°C Silk Milk</span>
+              <span>À partager</span>
             </div>
           </div>
 
@@ -147,8 +147,8 @@ export function StorySection() {
               <div className="relative rounded-t-[6.5rem] rounded-b-[2.2rem] overflow-hidden border border-[#D5C2AE]/35 bg-[#240A10] p-3 sm:p-4 shadow-2xl">
                 <div className="relative aspect-[4/5] w-full rounded-t-[5.5rem] rounded-b-[1.8rem] overflow-hidden">
                   <Image
-                    src="/images/chocolate-frappe-mug.png"
-                    alt="Dispacito Chocolate Frappe"
+                    src="/images/chapter-2-chocolate-cheesecake.png"
+                    alt="Gâteau au fromage nappé de chocolat"
                     fill
                     sizes="(max-width: 1024px) 100vw, 550px"
                     className="object-cover group-hover:scale-108 transition-transform duration-700 ease-out"
@@ -157,14 +157,14 @@ export function StorySection() {
 
                   {/* Corner stamp details */}
                   <div className="absolute top-6 right-6 text-[0.65rem] tracking-[0.3em] uppercase text-[#FAF7F2] font-light bg-black/40 backdrop-blur-md px-3 py-1 rounded-full border border-white/10">
-                    Origin Calibration
+                      Douceur Maison
                   </div>
 
                   <div className="absolute bottom-4 left-4 right-4 text-xs text-[#FAF7F2]/90 font-light">
                     <span className="font-editorial italic text-[#C69A68] text-sm block mb-0.5">
-                      Artisan Barista Bar
+                      Cheesecake au Chocolat
                     </span>
-                    Balanced notes of cocoa nibs, sweet caramel, and velvety crema.
+                    Cheesecake fondant servi avec un nappage de chocolat.
                   </div>
                 </div>
               </div>
@@ -173,7 +173,7 @@ export function StorySection() {
         </div>
 
         {/* =========================================================================
-            CHAPTER III: THE COASTAL GATHERING
+            CHAPITRE III: LES COOKIES GOURMANDS
             ========================================================================= */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           {/* Chapter III Image: Overlapping Asymmetrical Duo-Composition */}
@@ -183,8 +183,8 @@ export function StorySection() {
               <div className="relative rounded-[2.2rem] overflow-hidden border border-[#D5C2AE]/30 bg-[#280B12] p-3 sm:p-4 shadow-2xl">
                 <div className="relative aspect-[4/5] w-full rounded-[1.8rem] overflow-hidden">
                   <Image
-                    src="/images/charcuterie-board.png"
-                    alt="Dispacito Charcuterie Board"
+                    src="/images/chapter-3-cookie-tray.png"
+                    alt="Assortiment de biscuits gourmands"
                     fill
                     sizes="(max-width: 1024px) 100vw, 550px"
                     className="object-cover group-hover:scale-108 transition-transform duration-700 ease-out"
@@ -197,8 +197,8 @@ export function StorySection() {
               <div className="absolute -bottom-8 -right-4 sm:-bottom-10 sm:-right-8 w-44 sm:w-56 rounded-2xl overflow-hidden bg-[#FAF7F2] p-2.5 shadow-2xl border border-[#D5C2AE] rotate-3 group-hover:rotate-0 transition-transform duration-500 hidden sm:block">
                 <div className="relative aspect-square w-full rounded-xl overflow-hidden bg-[#2B0D14]">
                   <Image
-                    src="/images/iced-caramel-latte.png"
-                    alt="Dispacito Iced Caramel Latte"
+                    src="/images/iced-latte.WebP"
+                    alt="Café latte glacé au bord de la mer"
                     fill
                     sizes="200px"
                     className="object-cover"
@@ -206,10 +206,10 @@ export function StorySection() {
                 </div>
                 <div className="pt-2 text-center">
                   <span className="font-editorial text-xs font-bold text-[#3E151E] block">
-                    Seaside Brunch
+                    Latte Glacé
                   </span>
                   <span className="text-[0.6rem] uppercase tracking-wider text-[#8C6D75]">
-                    Akid Lotfi • Oran
+                    Café & fraîcheur
                   </span>
                 </div>
               </div>
@@ -220,35 +220,35 @@ export function StorySection() {
           <div className="lg:col-span-6 space-y-6 animate-right delay-100">
             <div className="flex items-center gap-3 text-xs tracking-[0.32em] uppercase text-[#D5C2AE] font-medium">
               <span className="w-8 h-[1px] bg-[#C69A68]" />
-              <span>Chapter III • The Coastal Gathering</span>
+              <span>Chapitre III • Les Cookies Gourmands</span>
             </div>
 
             <h2 className="font-editorial text-4xl sm:text-5xl lg:text-6xl font-bold text-[#FAF7F2] leading-[1.08]">
-              A Space Where Time Slows Along the Sea.
+              Des Cookies Dorés, Pour Toutes les Envies.
             </h2>
 
             <p className="font-editorial italic text-xl text-[#D5C2AE] font-normal">
-              Brunch plates, warm conversation, and a haven for 35,000 lovers of craft.
+              Une pâte généreuse, des garnitures variées et de quoi régaler toute la table.
             </p>
 
             <div className="space-y-4 text-sm sm:text-base text-[#FAF7F2]/80 leading-relaxed font-light">
               <p>
-                Dispacito was never meant to be a transient stop where you grab a drink and rush away. Located along the open expanse of the Frange Maritime in Akid Lotfi, our space was thoughtfully sculpted as a coastal sanctuary.
+                Dorés au four et garnis de saveurs gourmandes, nos cookies sont faits pour accompagner une pause généreuse. À chacun son favori, du chocolat fondant aux garnitures crémeuses.
               </p>
               <p>
-                Here, sunlight pours through expansive windows onto linen-draped tables. Friends gather over sizzling skillet shakshukas, caramelized French toasts, and savory stone-baked panini. Laughter carries effortlessly over acoustic melodies and the hiss of steam wands.
+                Réunis sur un plateau, ils invitent au partage : choisissez une douceur, goûtez-en une autre, et accompagnez le tout d&apos;un café ou d&apos;une boisson fraîche.
               </p>
               <p>
-                From lone writers savoring quiet afternoons to vibrant weekend brunch tables with families, Dispacito is the heartbeat of a growing community in Oran that cherishes the art of living well.
+                Pour une petite faim ou une envie à partager, ces cookies apportent une touche réconfortante à chaque moment de la journée.
               </p>
             </div>
 
             <div className="pt-2 flex items-center gap-6 text-xs tracking-[0.25em] uppercase text-[#C69A68]">
-              <span>Mediterranean Air</span>
+              <span>Faits avec soin</span>
               <span>•</span>
-              <span>All-Day Brunch</span>
+              <span>À partager</span>
               <span>•</span>
-              <span>35K+ Community</span>
+              <span>Pause Gourmande</span>
             </div>
           </div>
         </div>

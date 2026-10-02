@@ -11,12 +11,12 @@ export function MenuSection() {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedItem, setSelectedItem] = useState<MenuItem | null>(null);
 
-  // Filter categories matching user screenshot
+  // Filter categories matching user screenshot with French labels
   const filterCategories = [
-    { id: "all", label: "All" },
-    { id: "coffee", label: "Coffee" },
-    { id: "bakery", label: "Bakery" },
-    { id: "brunch", label: "Breakfast" },
+    { id: "all", label: "Tous" },
+    { id: "coffee", label: "Cafés" },
+    { id: "bakery", label: "Pâtisserie" },
+    { id: "brunch", label: "Brunch" },
     { id: "restaurant", label: "Restaurant" },
   ];
 
@@ -40,11 +40,11 @@ export function MenuSection() {
         aria-hidden="true"
         className="absolute top-10 right-4 select-none pointer-events-none text-[#D5C2AE]/20 font-editorial font-bold text-[14rem] md:text-[20rem] z-0 leading-none"
       >
-        Menu
+        Carte
       </div>
 
       <div className="container mx-auto px-4 md:px-8 relative z-10 max-w-7xl">
-        {/* Exact "Our Menu" Section Header matching user screenshot */}
+        {/* Exact Section Header matching user screenshot */}
         <div className="text-center mb-10 md:mb-14 animate-top">
           <div className="flex items-center justify-center gap-3 mb-2 text-[#C69A68]">
             <span className="h-[1px] w-12 bg-[#C69A68]/40" />
@@ -53,7 +53,7 @@ export function MenuSection() {
           </div>
 
           <h2 className="font-editorial text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-[#4A2619] sm:text-[#523321]">
-            Our Menu
+            Notre Carte
           </h2>
         </div>
 
@@ -83,7 +83,7 @@ export function MenuSection() {
             <Search className="w-4 h-4 text-[#8C6D75] absolute left-4 top-1/2 -translate-y-1/2" />
             <input
               type="text"
-              placeholder="Search dishes, pastries, drinks..."
+              placeholder="Rechercher une création, un café, une pâtisserie..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full pl-11 pr-10 py-2.5 bg-white/90 rounded-full border border-[#D5C2AE] text-sm text-[#2B0D14] placeholder-[#8C6D75]/70 focus:outline-none focus:border-[#5A3825] focus:ring-1 focus:ring-[#5A3825] shadow-sm transition-all"
@@ -102,8 +102,8 @@ export function MenuSection() {
         {/* Aesthetic & Original Editorial Menu Cards Grid */}
         {filteredItems.length === 0 ? (
           <div className="text-center py-16 bg-white rounded-3xl border border-[#D5C2AE]/50 p-8 animate-scale">
-            <p className="font-editorial text-2xl text-[#3E151E] mb-2">No selections found</p>
-            <p className="text-sm text-[#8C6D75] mb-6">Try another search keyword or switch categories.</p>
+            <p className="font-editorial text-2xl text-[#3E151E] mb-2">Aucune sélection trouvée</p>
+            <p className="text-sm text-[#8C6D75] mb-6">Essayez un autre mot-clé ou changez de catégorie.</p>
             <button
               onClick={() => {
                 setSearchQuery("");
@@ -111,7 +111,7 @@ export function MenuSection() {
               }}
               className="px-7 py-2.5 rounded-full bg-[#5A3825] text-white text-xs uppercase tracking-wider font-semibold hover:bg-[#3E151E] transition-all"
             >
-              Show All Menu
+              Afficher Toute la Carte
             </button>
           </div>
         ) : (
@@ -145,12 +145,12 @@ export function MenuSection() {
                       {/* Gentle warm tint on hover */}
                       <div className="absolute inset-0 bg-gradient-to-t from-[#2B0D14]/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
-                      {/* Elegant corner index number (No badge) */}
+                      {/* Elegant corner index number */}
                       <div className="absolute top-2.5 left-3 font-editorial italic text-xs tracking-wider text-[#FAF7F2] drop-shadow-md">
                         N° {itemNumber}
                       </div>
 
-                      {/* Subtle category tag (No pill badge) */}
+                      {/* Subtle category tag */}
                       <div className="absolute top-2.5 right-3 text-[0.62rem] tracking-[0.25em] uppercase text-[#FAF7F2] font-medium drop-shadow-md">
                         {item.category}
                       </div>
@@ -181,10 +181,10 @@ export function MenuSection() {
                   {/* Card Subtle Bottom Link */}
                   <div className="pt-3 mt-4 border-t border-[#D5C2AE]/35 px-1 flex items-center justify-between text-[0.7rem] text-[#8C6D75]">
                     <span className="font-editorial italic text-[#C69A68] text-xs">
-                      {item.badge ? item.badge : "Artisanal Recipe"}
+                      {item.badge ? item.badge : "Recette Artisanale"}
                     </span>
                     <span className="flex items-center gap-1 group-hover:text-[#3E151E] group-hover:translate-x-0.5 transition-all">
-                      <span>View</span>
+                      <span>Détails</span>
                       <ArrowUpRight className="w-3 h-3 text-[#C69A68]" />
                     </span>
                   </div>
@@ -195,7 +195,7 @@ export function MenuSection() {
         )}
       </div>
 
-      {/* Item Quick-View Detail Modal (No badges) */}
+      {/* Item Quick-View Detail Modal */}
       {selectedItem && (
         <div
           className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-fade"
@@ -222,10 +222,10 @@ export function MenuSection() {
             </div>
 
             <div className="p-6 md:p-8">
-              {/* Clean typographic category overline (No badge) */}
+              {/* Clean typographic category overline */}
               <div className="flex items-center gap-2 text-xs uppercase tracking-[0.3em] font-medium text-[#C69A68] mb-1.5">
                 <span className="w-4 h-[1px] bg-[#C69A68]" />
-                <span>Artisanal Selection • {selectedItem.category}</span>
+                <span>Sélection Spéciale • {selectedItem.category}</span>
               </div>
 
               <h3 className="font-editorial text-2xl md:text-3xl font-bold text-[#3E151E] mb-3">
@@ -236,9 +236,6 @@ export function MenuSection() {
               </p>
 
               <div className="flex items-center justify-between pt-4 border-t border-[#D5C2AE]/50">
-                <span className="text-xs text-[#8C6D75] uppercase tracking-wider">
-                  Menu Price
-                </span>
                 <span className="font-editorial text-2xl font-bold text-[#5A3825]">
                   {selectedItem.formattedPrice}
                 </span>

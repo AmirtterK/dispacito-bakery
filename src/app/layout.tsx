@@ -20,18 +20,19 @@ const plusJakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: `${shopData.name} | ${shopData.tagline} — Oran, Algeria`,
-  description: `${shopData.hero.headline} ${shopData.hero.subheadline} Visit Dispacito at Frange Maritime, Akid Lotfi in Oran for artisanal viennoiserie, specialty coffee, and gourmet brunch.`,
+  title: `${shopData.name} | ${shopData.tagline} — Oran, Algérie`,
+  description: `${shopData.hero.headline} ${shopData.hero.subheadline} Découvrez Dispacito sur la Frange Maritime, Akid Lotfi à Oran : pâtisseries artisanales, café de spécialité et brunch raffiné.`,
   keywords: [
     "Dispacito",
     "Dispacito Oran",
     "dispacito_cake",
-    "Bakery Oran",
-    "Coffee Shop Oran",
+    "Boulangerie Oran",
+    "Pâtisserie Oran",
+    "Café Oran",
     "Brunch Oran",
     "Akid Lotfi",
     "Frange Maritime",
-    "Algeria Cafe",
+    "Algérie Café",
   ],
   icons: {
     icon: [
@@ -58,7 +59,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${playfair.variable} ${plusJakarta.variable} scroll-smooth`}>
+    <html lang="fr" className={`${playfair.variable} ${plusJakarta.variable} scroll-smooth`}>
       <body className="font-sans bg-[#FAF7F2] text-[#2B0D14] antialiased min-h-screen flex flex-col selection:bg-[#3E151E] selection:text-[#FAF7F2]">
         <ScrollAnimationProvider>
           {children}

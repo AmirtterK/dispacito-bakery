@@ -18,7 +18,7 @@ export function Footer() {
       <div className="absolute -top-7 left-1/2 -translate-x-1/2 z-20">
         <button
           onClick={scrollToTop}
-          aria-label="Back to top"
+          aria-label="Retour en haut"
           className="w-14 h-14 rounded-full bg-[#2B0D14] text-[#D5C2AE] hover:text-[#FAF7F2] border-2 border-[#D5C2AE]/40 flex items-center justify-center shadow-2xl hover:border-[#D5C2AE] hover:scale-105 transition-all group"
         >
           <ChevronUp className="w-6 h-6 animate-showsUp group-hover:scale-110" />
@@ -31,10 +31,10 @@ export function Footer() {
           <div className="md:col-span-5 space-y-4 animate-left">
             <DispacitoLogo variant="light" size="lg" className="!items-start" />
             <p className="text-sm text-[#D5C2AE]/80 max-w-sm font-light leading-relaxed pt-2">
-              A coastal artisanal sanctuary where high-craft viennoiserie, specialty espresso, and slow-crafted brunch meet refined editorial elegance.
+              Un havre côtier d&apos;artisanat où haute viennoiserie, café de spécialité et brunch gourmand s&apos;unissent dans une atmosphère élégante et chaleureuse.
             </p>
             <p className="text-xs text-[#D5C2AE]/60 uppercase tracking-widest pt-2">
-              {shopData.location.address} • {shopData.location.city}, Algeria
+              {shopData.location.address} • {shopData.location.city}, Algérie
             </p>
           </div>
 
@@ -46,17 +46,17 @@ export function Footer() {
             <ul className="space-y-2 text-sm text-[#D5C2AE]/80">
               <li>
                 <Link href="#menu" className="hover:text-[#FAF7F2] transition-colors">
-                  Our Menu Selection
+                  Notre Carte & Sélections
                 </Link>
               </li>
               <li>
                 <Link href="#story" className="hover:text-[#FAF7F2] transition-colors">
-                  The Dispacito Story
+                  L&apos;Histoire Dispacito
                 </Link>
               </li>
               <li>
                 <Link href="#location" className="hover:text-[#FAF7F2] transition-colors">
-                  Hours & Maritime Location
+                  Horaires & Accès Maritime
                 </Link>
               </li>
               <li>
@@ -66,7 +66,7 @@ export function Footer() {
                   rel="noopener noreferrer"
                   className="hover:text-[#FAF7F2] transition-colors"
                 >
-                  Directions on Google Maps
+                  Itinéraire Google Maps
                 </a>
               </li>
             </ul>
@@ -80,7 +80,7 @@ export function Footer() {
             <div className="text-sm text-[#D5C2AE]/80 space-y-1">
               <p className="flex items-center gap-2">
                 <Clock className="w-4 h-4 text-[#C69A68]" />
-                <span>{shopData.hours.days}: {shopData.hours.time}</span>
+                <span>{shopData.hours.days} : {shopData.hours.time}</span>
               </p>
               <p className="flex items-center gap-2">
                 <MapPin className="w-4 h-4 text-[#C69A68]" />
@@ -102,17 +102,14 @@ export function Footer() {
           </div>
         </div>
 
-        {/* Bottom copyright & back to top */}
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#D5C2AE]/60 uppercase tracking-widest">
-          <p>© {new Date().getFullYear()} Dispacito. All rights reserved.</p>
-
-          <button
-            onClick={scrollToTop}
-            className="inline-flex items-center gap-1.5 hover:text-[#FAF7F2] transition-colors cursor-pointer"
-          >
-            <span>Back to top</span>
-            <ChevronUp className="w-4 h-4 text-[#C69A68]" />
-          </button>
+        {/* Bottom copyright */}
+        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-[#D5C2AE]/60 gap-4">
+          <p>
+            © {new Date().getFullYear()} {shopData.name}. Tous droits réservés.
+          </p>
+          <p className="tracking-widest uppercase text-[0.65rem]">
+            Boulangerie • Café de Spécialité • Brunch • Oran
+          </p>
         </div>
       </div>
     </footer>

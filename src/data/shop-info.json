@@ -1,45 +1,45 @@
 {
   "name": "Dispacito",
-  "tagline": "Bakery • Coffee • Brunch",
-  "category": "Boutique Cafe & Artisanal Bakery",
-  "established": "Oran, Algeria",
-  "announcement": "Something new is coming • A fresh chapter is brewing",
+  "tagline": "Boulangerie • Café • Brunch",
+  "category": "Café Boutique & Boulangerie Artisanale",
+  "established": "Oran, Algérie",
+  "announcement": "Quelque chose de nouveau arrive • Un nouveau chapitre commence",
   "hero": {
-    "badge": "Artisanal Sanctuary",
-    "headline": "A Fresh Chapter Is Brewing.",
-    "subheadline": "Brunch. Coffee. Bakery. Something new is coming.",
-    "description": "Welcome to Dispacito — Oran's coastal boutique where artisanal viennoiserie, specialty espresso, and slow-crafted brunch meet refined elegance.",
-    "ctaMenu": "Explore The Menu",
-    "ctaLocation": "Visit Us"
+    "badge": "Sanctuaire Artisanal",
+    "headline": "Un Nouveau Chapitre S'ouvre.",
+    "subheadline": "Brunch. Café. Boulangerie. Quelque chose de nouveau arrive à Oran.",
+    "description": "Bienvenue chez Dispacito — le café boutique côtier d'Oran où la viennoiserie artisanale, l'espresso de spécialité et le brunch raffiné rencontrent une élégance éditoriale unique.",
+    "ctaMenu": "Découvrir la Carte",
+    "ctaLocation": "Nous Visiter"
   },
   "story": {
-    "title": "Crafted with Passion & Heritage",
-    "subtitle": "Nestled on the seaside corniche of Akid Lotfi",
+    "title": "Créé avec Passion & Héritage",
+    "subtitle": "Niché sur la corniche maritime d'Akid Lotfi",
     "paragraphs": [
-      "At Dispacito, we believe coffee and pastry are daily rituals meant to be savored slowly. Our bakers greet the dawn with golden, flaky croissants and handcrafted confections, while our baristas dial in exquisite single-origin espresso with millimeter precision.",
-      "Whether you are joining us for an energizing morning macchiato, a lavish weekend brunch with friends, or an evening dessert under the warm Mediterranean breeze, Dispacito is your warm editorial home in Oran."
+      "Chez Dispacito, nous croyons que le café et la pâtisserie sont des rituels quotidiens à savourer lentement. Nos boulangers accueillent l'aube avec des croissants dorés et feuilletés et des confections artisanales, tandis que nos baristas calibrent un espresso mono-origine exquis avec une précision au millimètre.",
+      "Que vous nous rejoigniez pour un macchiato énergisant le matin, un brunch dominical généreux entre amis, ou un dessert en soirée sous la brise méditerranéenne, Dispacito est votre maison éditoriale à Oran."
     ],
     "highlights": [
       {
-        "label": "Open Daily",
+        "label": "Ouvert Tous les Jours",
         "value": "7 / 7"
       },
       {
-        "label": "Hours",
+        "label": "Horaires",
         "value": "08:30 – 23:00"
       },
       {
-        "label": "Community",
-        "value": "35K+ Coffee Lovers"
+        "label": "Communauté",
+        "value": "35K+ Amateurs de Café"
       },
       {
-        "label": "Location",
+        "label": "Localisation",
         "value": "Akid Lotfi, Oran"
       }
     ]
   },
   "hours": {
-    "days": "Ouvert 7/7 (Every day)",
+    "days": "Tous les jours",
     "time": "08:30 – 23:00",
     "breakfastHours": "08:30 – 12:30",
     "kitchenHours": "12:00 – 22:30"
@@ -48,7 +48,7 @@
     "address": "Frange maritime, Akid",
     "neighborhood": "Akid Lotfi",
     "city": "Oran",
-    "country": "Algeria",
+    "country": "Algérie",
     "mapsUrl": "https://maps.app.goo.gl/ZC7Qk8hxhoSji96T8",
     "embedQuery": "Dispacito Akid Oran",
     "coordinates": {

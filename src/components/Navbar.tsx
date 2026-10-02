@@ -30,31 +30,31 @@ export function Navbar() {
         {/* Left Side: Brand Logo */}
         <DispacitoLogo variant="light" size="md" showSubtitle={true} />
 
-        {/* Right Side: Clean Horizontal Navigation Links matching the screenshot */}
+        {/* Right Side: Clean Horizontal Navigation Links */}
         <div className="hidden md:flex items-center gap-8 lg:gap-10">
           <Link
             href="/"
             className="text-white hover:text-[#D5C2AE] text-xs sm:text-sm tracking-[0.2em] uppercase font-medium transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-[#D5C2AE] hover:after:w-full after:transition-all after:duration-300"
           >
-            Home
+            Accueil
           </Link>
           <Link
             href="#story"
             className="text-white hover:text-[#D5C2AE] text-xs sm:text-sm tracking-[0.2em] uppercase font-medium transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-[#D5C2AE] hover:after:w-full after:transition-all after:duration-300"
           >
-            About
+            Notre Histoire
           </Link>
           <Link
             href="#menu"
             className="text-white hover:text-[#D5C2AE] text-xs sm:text-sm tracking-[0.2em] uppercase font-medium transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-[#D5C2AE] hover:after:w-full after:transition-all after:duration-300"
           >
-            Menu
+            La Carte
           </Link>
           <Link
             href="#location"
             className="text-white hover:text-[#D5C2AE] text-xs sm:text-sm tracking-[0.2em] uppercase font-medium transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-[#D5C2AE] hover:after:w-full after:transition-all after:duration-300"
           >
-            Location
+            Accès
           </Link>
           <a
             href={shopData.contact.instagram}
@@ -70,14 +70,14 @@ export function Navbar() {
             rel="noopener noreferrer"
             className="px-5 py-2 rounded-full border border-white/60 text-white hover:border-[#D5C2AE] hover:bg-[#D5C2AE] hover:text-[#2B0D14] text-xs tracking-[0.18em] uppercase font-semibold transition-all duration-300"
           >
-            Visit Us
+            Nous Rendre Visite
           </a>
         </div>
 
         {/* Mobile Hamburger Button */}
         <button
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-          aria-label="Toggle navigation"
+          aria-label="Ouvrir le menu"
           className="md:hidden p-2 text-white hover:text-[#D5C2AE] transition-colors"
         >
           {mobileMenuOpen ? <X className="w-6 h-6" /> : <MenuIcon className="w-6 h-6" />}
@@ -93,49 +93,47 @@ export function Navbar() {
               onClick={() => setMobileMenuOpen(false)}
               className="text-white hover:text-[#D5C2AE] py-1 text-sm tracking-[0.25em] uppercase font-medium"
             >
-              Home
+              Accueil
             </Link>
             <Link
               href="#story"
               onClick={() => setMobileMenuOpen(false)}
               className="text-white hover:text-[#D5C2AE] py-1 text-sm tracking-[0.25em] uppercase font-medium"
             >
-              About
+              Notre Histoire
             </Link>
             <Link
               href="#menu"
               onClick={() => setMobileMenuOpen(false)}
               className="text-white hover:text-[#D5C2AE] py-1 text-sm tracking-[0.25em] uppercase font-medium"
             >
-              Menu
+              La Carte
             </Link>
             <Link
               href="#location"
               onClick={() => setMobileMenuOpen(false)}
               className="text-white hover:text-[#D5C2AE] py-1 text-sm tracking-[0.25em] uppercase font-medium"
             >
-              Location
+              Horaires & Accès
             </Link>
             <a
               href={shopData.contact.instagram}
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setMobileMenuOpen(false)}
-              className="text-[#C69A68] py-1 text-sm tracking-[0.25em] uppercase font-medium"
+              className="text-white hover:text-[#D5C2AE] py-1 text-sm tracking-[0.25em] uppercase font-medium"
             >
-              Instagram ({shopData.contact.instagramHandle})
+              Instagram
             </a>
-            <div className="pt-2">
-              <a
-                href={shopData.location.mapsUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={() => setMobileMenuOpen(false)}
-                className="inline-block px-6 py-2.5 rounded-full bg-[#D5C2AE] text-[#2B0D14] text-xs tracking-[0.2em] uppercase font-bold"
-              >
-                Directions on Maps
-              </a>
-            </div>
+            <a
+              href={shopData.location.mapsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setMobileMenuOpen(false)}
+              className="inline-block mt-2 px-6 py-2.5 rounded-full bg-[#D5C2AE] text-[#2B0D14] text-xs tracking-[0.2em] uppercase font-bold"
+            >
+              Nous Rendre Visite
+            </a>
           </div>
         </div>
       )}

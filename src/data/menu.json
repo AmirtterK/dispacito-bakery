@@ -2,429 +2,153 @@
   "categories": [
     {
       "id": "all",
-      "name": "Full Collection",
-      "subtitle": "Everything we craft"
+      "name": "Collection Complète",
+      "subtitle": "Tout ce que nous créons avec passion"
     },
     {
       "id": "coffee",
-      "name": "Coffee & Drinks",
-      "subtitle": "Single-origin espresso, artisan infusions & signature cocktails"
+      "name": "Cafés & Boissons",
+      "subtitle": "Espresso mono-origine & infusions artisanales"
     },
     {
       "id": "bakery",
-      "name": "Bakery & Sweets",
-      "subtitle": "Flaky pastries, cakes & Middle Eastern delights"
+      "name": "Boulangerie & Douceurs",
+      "subtitle": "Pâtisseries feuilletées, entremets & délices orientaux"
     },
     {
       "id": "brunch",
-      "name": "Brunch & Breakfast",
-      "subtitle": "Morning plates, platters & gourmet eggs"
+      "name": "Brunch & Petit-Déjeuner",
+      "subtitle": "Assiettes du matin, plateaux & œufs gastronomiques"
     },
     {
       "id": "restaurant",
-      "name": "Savory & Kitchen",
-      "subtitle": "Artisan pastas, stone-baked pizzas & grilled plates"
+      "name": "Cuisine & Saveurs",
+      "subtitle": "Pâtes artisanales, pizzas et grillades raffinées"
     }
   ],
   "items": [
     {
-      "id": "raspberry-mint-cocktail",
-      "name": "Raspberry Mint Cocktail",
+      "id": "cocktail-framboise-1",
+      "name": "Cocktail Framboise & Menthe",
       "category": "coffee",
       "price": 750,
       "formattedPrice": "750 DA",
-      "description": "Vibrant crushed raspberry over sparkling mineral water, fresh mint, a lemon spiral, and a delicate foam crown.",
+      "description": "Framboises fraîches pressées sur eau pétillante minérale, menthe fraîche, spirale de citron et couronne de mousse délicate.",
       "image": "/images/raspberry-mint-cocktail.png",
       "featured": true,
-      "badge": "House Signature"
+      "badge": "Signature Maison"
     },
     {
-      "id": "raspberry-mint-cocktail-2",
-      "name": "Raspberry Mint Cocktail",
+      "id": "cocktail-framboise-2",
+      "name": "Cocktail Framboise & Menthe",
       "category": "coffee",
       "price": 750,
       "formattedPrice": "750 DA",
-      "description": "Vibrant crushed raspberry over sparkling mineral water, fresh mint, a lemon spiral, and a delicate foam crown.",
-      "image": "/images/raspberry-mint-cocktail.png",
-      "featured": false
-    },
-    {
-      "id": "raspberry-mint-cocktail-3",
-      "name": "Raspberry Mint Cocktail",
-      "category": "coffee",
-      "price": 750,
-      "formattedPrice": "750 DA",
-      "description": "Vibrant crushed raspberry over sparkling mineral water, fresh mint, a lemon spiral, and a delicate foam crown.",
+      "description": "Framboises fraîches pressées sur eau pétillante minérale, menthe fraîche, spirale de citron et couronne de mousse délicate.",
       "image": "/images/raspberry-mint-cocktail.png",
       "featured": false
     },
     {
-      "id": "iced-caramel-latte",
-      "name": "Iced Caramel Latte",
+      "id": "cocktail-framboise-3",
+      "name": "Cocktail Framboise & Menthe",
       "category": "coffee",
-      "price": 600,
-      "formattedPrice": "600 DA",
-      "description": "Fresh espresso gently poured over cold textured milk and house-made caramel syrup, served in a can glass over ice.",
-      "image": "/images/iced-caramel-latte.png",
-      "featured": true,
-      "badge": "Popular"
-    },
-    {
-      "id": "floral-citrus-cocktail",
-      "name": "Floral Citrus Mocktail",
-      "category": "coffee",
-      "price": 650,
-      "formattedPrice": "650 DA",
-      "description": "House-pressed citrus with elderflower, white flower garnish, and lemon curl — light, vibrant, and utterly refreshing.",
-      "image": "/images/floral-citrus-cocktail.png",
-      "featured": true,
-      "badge": "Summer"
-    },
-    {
-      "id": "sparkling-lemonade",
-      "name": "Sparkling Garden Lemonade",
-      "category": "coffee",
-      "price": 550,
-      "formattedPrice": "550 DA",
-      "description": "Fresh lemon slices, mint sprigs, and pure mineral sparkling water over crushed ice with a salted rim.",
-      "image": "/images/sparkling-lemonade.png",
+      "price": 750,
+      "formattedPrice": "750 DA",
+      "description": "Framboises fraîches pressées sur eau pétillante minérale, menthe fraîche, spirale de citron et couronne de mousse délicate.",
+      "image": "/images/raspberry-mint-cocktail.png",
       "featured": false
     },
     {
-      "id": "chocolate-frappe",
-      "name": "Belgian Chocolate Frappé",
-      "category": "coffee",
-      "price": 650,
-      "formattedPrice": "650 DA",
-      "description": "Ice-blended Belgian dark chocolate, creamy milk, and espresso topped with clouds of fresh crème chantilly.",
-      "image": "/images/chocolate-frappe-mug.png",
-      "featured": true,
-      "badge": "Bestseller"
-    },
-    {
-      "id": "double-espresso",
-      "name": "Double Espresso",
-      "category": "coffee",
-      "price": 350,
-      "formattedPrice": "350 DA",
-      "description": "Rich and intense coffee made by forcing hot water through finely ground beans, delivering bold flavor and crema.",
-      "image": "/images/double-espresso.WebP",
-      "featured": false
-    },
-    {
-      "id": "specialty-espresso",
-      "name": "Specialty Espresso",
-      "category": "coffee",
-      "price": 450,
-      "formattedPrice": "450 DA",
-      "description": "Crafted with carefully selected beans and precise brewing, offering a smooth body, balanced citrus notes, and aromatic finish.",
-      "image": "/images/specialty-espresso.WebP",
-      "featured": false
-    },
-    {
-      "id": "cappuccino",
-      "name": "Cappuccino",
-      "category": "coffee",
-      "price": 500,
-      "formattedPrice": "500 DA",
-      "description": "Harmonious balance of double espresso, silky steamed milk, and a generous layer of dense, velvety milk foam.",
-      "image": "/images/cappuccino.WebP",
-      "featured": false
-    },
-    {
-      "id": "hot-chocolate",
-      "name": "Hot Chocolate",
-      "category": "coffee",
-      "price": 550,
-      "formattedPrice": "550 DA",
-      "description": "Melted Belgian chocolate blended with creamy steamed milk and dusted with dark cocoa powder.",
-      "image": "/images/hot-chocolate.WebP",
-      "featured": false
-    },
-    {
-      "id": "caramel-latte",
-      "name": "Caramel Latte",
-      "category": "coffee",
-      "price": 550,
-      "formattedPrice": "550 DA",
-      "description": "Sweet and velvety blend of espresso, steamed whole milk, and handcrafted buttery caramel syrup, finished with microfoam.",
-      "image": "/images/caramel-latte.WebP",
-      "featured": false
-    },
-    {
-      "id": "iced-matcha-latte",
-      "name": "Iced Ceremonial Matcha",
-      "category": "coffee",
-      "price": 650,
-      "formattedPrice": "650 DA",
-      "description": "Chilled and vibrant green tea elixir made from stone-ground Uji matcha and sweet oat milk over ice.",
-      "image": "/images/Iced-Matcha-Latte.WebP",
-      "featured": false
-    },
-    {
-      "id": "turkish-coffee",
-      "name": "Authentic Turkish Coffee",
-      "category": "coffee",
-      "price": 450,
-      "formattedPrice": "450 DA",
-      "description": "Finely ground Arabica beans brewed in a traditional copper cezve, producing a thick foam and intense aroma.",
-      "image": "/images/turkish-coffee.webp",
-      "featured": false,
-      "badge": "Traditional"
-    },
-    {
-      "id": "red-mirror-cake",
-      "name": "Red Berry Mirror Cake",
+      "id": "entremet-miroir-1",
+      "name": "Entremet Miroir aux Fruits Rouges",
       "category": "bakery",
       "price": 1200,
-      "formattedPrice": "1,200 DA",
-      "description": "A showstopping mirror-glaze entremet featuring layers of almond biscuit, raspberry mousse, and a jewel-red lacquer finish adorned with seasonal berries.",
-      "image": "/images/red-mirror-cake.png",
+      "formattedPrice": "1 200 DA",
+      "description": "Sublime entremet à glaçage miroir rouge vif, composé de couches de biscuit amande, de mousse framboise légère, couronné de mûres fraîches et bleuets, avec une pensée comestible.",
+      "image": "/images/red-mirror-cake-hero.jpg",
       "featured": true,
-      "badge": "Pâtissier Special"
+      "badge": "Spécial Pâtissier"
     },
     {
-      "id": "red-mirror-cake-2",
-      "name": "Red Berry Mirror Cake",
+      "id": "entremet-miroir-2",
+      "name": "Entremet Miroir aux Fruits Rouges",
       "category": "bakery",
       "price": 1200,
-      "formattedPrice": "1,200 DA",
-      "description": "A showstopping mirror-glaze entremet featuring layers of almond biscuit, raspberry mousse, and a jewel-red lacquer finish adorned with seasonal berries.",
-      "image": "/images/red-mirror-cake.png",
+      "formattedPrice": "1 200 DA",
+      "description": "Sublime entremet à glaçage miroir rouge vif, composé de couches de biscuit amande, de mousse framboise légère, couronné de mûres fraîches et bleuets, avec une pensée comestible.",
+      "image": "/images/red-mirror-cake-hero.jpg",
       "featured": false
     },
     {
-      "id": "red-mirror-cake-3",
-      "name": "Red Berry Mirror Cake",
+      "id": "entremet-miroir-3",
+      "name": "Entremet Miroir aux Fruits Rouges",
       "category": "bakery",
       "price": 1200,
-      "formattedPrice": "1,200 DA",
-      "description": "A showstopping mirror-glaze entremet featuring layers of almond biscuit, raspberry mousse, and a jewel-red lacquer finish adorned with seasonal berries.",
-      "image": "/images/red-mirror-cake.png",
+      "formattedPrice": "1 200 DA",
+      "description": "Sublime entremet à glaçage miroir rouge vif, composé de couches de biscuit amande, de mousse framboise légère, couronné de mûres fraîches et bleuets, avec une pensée comestible.",
+      "image": "/images/red-mirror-cake-hero.jpg",
       "featured": false
     },
     {
-      "id": "pink-mousse-bomb",
-      "name": "Pink Raspberry Mousse Bomb",
-      "category": "bakery",
-      "price": 950,
-      "formattedPrice": "950 DA",
-      "description": "A velvety pink cocoa-dusted shell concealing layers of light raspberry mousse, dark chocolate ganache, and a crispy feuilletine base.",
-      "image": "/images/pink-mousse-bomb.png",
-      "featured": true,
-      "badge": "Artisan"
-    },
-    {
-      "id": "burgundy-truffle-bomb",
-      "name": "Burgundy Cocoa Truffle",
-      "category": "bakery",
-      "price": 850,
-      "formattedPrice": "850 DA",
-      "description": "Velvety dome of dark cocoa velvet spray, hiding a molten ganache heart with cacao nibs and a fragrant blackcurrant core.",
-      "image": "/images/burgundy-truffle-bomb.png",
-      "featured": true,
-      "badge": "Chef Creation"
-    },
-    {
-      "id": "kunafa",
-      "name": "Traditional Kunafa",
-      "category": "bakery",
-      "price": 800,
-      "formattedPrice": "800 DA",
-      "description": "Crispy shredded kataifi pastry baked with melted sweet cheese and drenched in orange blossom syrup.",
-      "image": "/images/kunafa.WebP",
-      "featured": false
-    },
-    {
-      "id": "kunafa-ice-cream",
-      "name": "Kunafa à la Mode",
-      "category": "bakery",
-      "price": 950,
-      "formattedPrice": "950 DA",
-      "description": "Warm golden kunafa paired with artisanal mastic vanilla ice cream and roasted pistachios.",
-      "image": "/images/kunafa-ice-cream.WebP",
-      "featured": false
-    },
-    {
-      "id": "croissant-beurre",
-      "name": "French Butter Croissant",
-      "category": "bakery",
-      "price": 300,
-      "formattedPrice": "300 DA",
-      "description": "Golden, flaky 27-layer butter pastry baked fresh daily in the Dispacito ovens with a honeycomb crumb.",
-      "image": "/images/croissant.WebP",
-      "featured": false
-    },
-    {
-      "id": "cinnamon-roll",
-      "name": "Glazed Cinnamon Roll",
-      "category": "bakery",
-      "price": 450,
-      "formattedPrice": "450 DA",
-      "description": "Warm, soft brioche swirl infused with Saigon cinnamon and coated with cream cheese frosting.",
-      "image": "/images/cinnamon-roll.WebP",
-      "featured": false
-    },
-    {
-      "id": "chocolate-cake",
-      "name": "Dark Truffle Chocolate Cake",
-      "category": "bakery",
-      "price": 850,
-      "formattedPrice": "850 DA",
-      "description": "Moist, velvety cocoa sponge filled with silky chocolate ganache and chocolate curls.",
-      "image": "/images/Chocolate-cake.WebP",
-      "featured": false
-    },
-    {
-      "id": "charcuterie-board",
-      "name": "Artisan Charcuterie Board",
+      "id": "plateau-charcuterie-1",
+      "name": "Plateau Charcuterie & Fromages",
       "category": "brunch",
       "price": 1800,
-      "formattedPrice": "1,800 DA",
-      "description": "A lavish spread of cured meats, aged cheeses, Kalamata olives, honey, seasonal grapes, walnuts, and house crackers.",
+      "formattedPrice": "1 800 DA",
+      "description": "Généreux plateau à partager : charcuterie fine, fromages affinés, olives Kalamata, miel d'acacia, raisins de saison, noix et crackers maison.",
       "image": "/images/charcuterie-board.png",
       "featured": true,
-      "badge": "Table Sharing"
+      "badge": "À Partager"
     },
     {
-      "id": "charcuterie-board-2",
-      "name": "Artisan Charcuterie Board",
+      "id": "plateau-charcuterie-2",
+      "name": "Plateau Charcuterie & Fromages",
       "category": "brunch",
       "price": 1800,
-      "formattedPrice": "1,800 DA",
-      "description": "A lavish spread of cured meats, aged cheeses, Kalamata olives, honey, seasonal grapes, walnuts, and house crackers.",
+      "formattedPrice": "1 800 DA",
+      "description": "Généreux plateau à partager : charcuterie fine, fromages affinés, olives Kalamata, miel d'acacia, raisins de saison, noix et crackers maison.",
       "image": "/images/charcuterie-board.png",
       "featured": false
     },
     {
-      "id": "charcuterie-board-3",
-      "name": "Artisan Charcuterie Board",
+      "id": "plateau-charcuterie-3",
+      "name": "Plateau Charcuterie & Fromages",
       "category": "brunch",
       "price": 1800,
-      "formattedPrice": "1,800 DA",
-      "description": "A lavish spread of cured meats, aged cheeses, Kalamata olives, honey, seasonal grapes, walnuts, and house crackers.",
+      "formattedPrice": "1 800 DA",
+      "description": "Généreux plateau à partager : charcuterie fine, fromages affinés, olives Kalamata, miel d'acacia, raisins de saison, noix et crackers maison.",
       "image": "/images/charcuterie-board.png",
       "featured": false
     },
     {
-      "id": "american-breakfast",
-      "name": "Grand American Breakfast",
-      "category": "brunch",
-      "price": 1200,
-      "formattedPrice": "1,200 DA",
-      "description": "Sunny-side eggs, crisp beef bacon, country sausages, golden hash browns, and fluffy pancakes with maple syrup.",
-      "image": "/images/American-breakfast.WebP",
-      "featured": false
-    },
-    {
-      "id": "english-breakfast",
-      "name": "Full English Breakfast",
-      "category": "brunch",
-      "price": 1300,
-      "formattedPrice": "1,300 DA",
-      "description": "Farm eggs, grilled beef sausage, slow-baked beans, garlic button mushrooms, seared tomato, and toasted sourdough.",
-      "image": "/images/english-breakfast.WebP",
-      "featured": false
-    },
-    {
-      "id": "pomodora-breakfast",
-      "name": "Pomodoro Shakshuka Eggs",
-      "category": "brunch",
-      "price": 950,
-      "formattedPrice": "950 DA",
-      "description": "Farm eggs gently poached in a rich simmered sauce of San Marzano tomatoes, bell peppers, garlic, and cumin.",
-      "image": "/images/pomodora-breakfast.WebP",
-      "featured": false
-    },
-    {
-      "id": "guacamole-omelette",
-      "name": "Avocado & Guacamole Omelette",
-      "category": "brunch",
-      "price": 950,
-      "formattedPrice": "950 DA",
-      "description": "Three farm eggs folded with fresh lime guacamole, feta crumbles, and served with a garden greens salad.",
-      "image": "/images/Guacamole-omelette.WebP",
-      "featured": false
-    },
-    {
-      "id": "margherita-pizza",
-      "name": "Classic Margherita DOC",
+      "id": "tacos-gourmands-1",
+      "name": "Mini Tacos Gourmands",
       "category": "restaurant",
       "price": 1200,
-      "formattedPrice": "1,200 DA",
-      "description": "Stone-baked dough, San Marzano tomato coulis, fior di latte mozzarella, fresh basil, and extra virgin olive oil.",
-      "image": "/images/Margherita-pizza.WebP",
+      "formattedPrice": "1 200 DA",
+      "description": "Mini tortillas garnies de laitue croquante, tomates fraîches et fromage râpé, servies sur une planche en bois.",
+      "image": "/images/mini-tacos.png",
       "featured": true,
-      "badge": "Stone Baked"
+      "badge": "Nouveauté"
     },
     {
-      "id": "margherita-pizza-2",
-      "name": "Classic Margherita DOC",
+      "id": "tacos-gourmands-2",
+      "name": "Mini Tacos Gourmands",
       "category": "restaurant",
       "price": 1200,
-      "formattedPrice": "1,200 DA",
-      "description": "Stone-baked dough, San Marzano tomato coulis, fior di latte mozzarella, fresh basil, and extra virgin olive oil.",
-      "image": "/images/Margherita-pizza.WebP",
+      "formattedPrice": "1 200 DA",
+      "description": "Mini tortillas garnies de laitue croquante, tomates fraîches et fromage râpé, servies sur une planche en bois.",
+      "image": "/images/mini-tacos.png",
       "featured": false
     },
     {
-      "id": "margherita-pizza-3",
-      "name": "Classic Margherita DOC",
+      "id": "tacos-gourmands-3",
+      "name": "Mini Tacos Gourmands",
       "category": "restaurant",
       "price": 1200,
-      "formattedPrice": "1,200 DA",
-      "description": "Stone-baked dough, San Marzano tomato coulis, fior di latte mozzarella, fresh basil, and extra virgin olive oil.",
-      "image": "/images/Margherita-pizza.WebP",
-      "featured": false
-    },
-    {
-      "id": "tenderloin-steak",
-      "name": "Prime Grilled Steak",
-      "category": "restaurant",
-      "price": 2400,
-      "formattedPrice": "2,400 DA",
-      "description": "Tender cut of prime beef grilled to your liking with garlic rosemary butter, served with crispy fries or roasted greens.",
-      "image": "/images/Steak.WebP",
-      "featured": false
-    },
-    {
-      "id": "lasagna-bolognese",
-      "name": "Artisanal Lasagna al Forno",
-      "category": "restaurant",
-      "price": 1800,
-      "formattedPrice": "1,800 DA",
-      "description": "Handmade pasta sheets layered with slow-cooked beef ragù, velvety béchamel sauce, and bubbling aged mozzarella.",
-      "image": "/images/Lasagna.WebP",
-      "featured": false
-    },
-    {
-      "id": "pepperoni-pizza",
-      "name": "Diavola Pepperoni Pizza",
-      "category": "restaurant",
-      "price": 1500,
-      "formattedPrice": "1,500 DA",
-      "description": "Crisp hand-tossed crust with spicy beef pepperoni slices, rich tomato sauce, and molten mozzarella.",
-      "image": "/images/Pepperoni-pizza.WebP",
-      "featured": false
-    },
-    {
-      "id": "garlic-steak-pizza",
-      "name": "Garlic Steak & Truffle Pizza",
-      "category": "restaurant",
-      "price": 1800,
-      "formattedPrice": "1,800 DA",
-      "description": "Thin-sliced seared steak, roasted garlic cloves, caramelized shallots, mushrooms, and rosemary oil.",
-      "image": "/images/Garlic-Steak-Pizza.WebP",
-      "featured": false
-    },
-    {
-      "id": "chicken-alfredo",
-      "name": "Fettuccine Chicken Alfredo",
-      "category": "restaurant",
-      "price": 1750,
-      "formattedPrice": "1,750 DA",
-      "description": "Tender grilled chicken tossed with ribbon pasta in a decadent garlic Parmesan cream sauce.",
-      "image": "/images/Chicken-Alfredo.WebP",
+      "formattedPrice": "1 200 DA",
+      "description": "Mini tortillas garnies de laitue croquante, tomates fraîches et fromage râpé, servies sur une planche en bois.",
+      "image": "/images/mini-tacos.png",
       "featured": false
     }
   ]
