@@ -12,6 +12,12 @@
   --color-dark: #2B0D14;
 }
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: clip;
+}
+
 @theme inline {
   --font-editorial: var(--font-editorial), Georgia, serif;
   --font-sans: var(--font-sans), system-ui, sans-serif;
