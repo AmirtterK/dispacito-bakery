@@ -33,7 +33,7 @@ export function Navbar() {
         {/* Right Side: Clean Horizontal Navigation Links */}
         <div className="hidden md:flex items-center gap-8 lg:gap-10">
           <Link
-            href="/"
+            href="#top"
             className="text-white hover:text-[#D5C2AE] text-xs sm:text-sm tracking-[0.2em] uppercase font-medium transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-[#D5C2AE] hover:after:w-full after:transition-all after:duration-300"
           >
             Accueil
@@ -89,7 +89,7 @@ export function Navbar() {
         <div className="md:hidden bg-[#2B0D14]/95 backdrop-blur-md border-t border-[#D5C2AE]/20 px-6 py-8 animate-fadeIn">
           <div className="flex flex-col gap-5 text-center">
             <Link
-              href="/"
+              href="#top"
               onClick={() => setMobileMenuOpen(false)}
               className="text-white hover:text-[#D5C2AE] py-1 text-sm tracking-[0.25em] uppercase font-medium"
             >

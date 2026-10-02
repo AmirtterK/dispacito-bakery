@@ -9,7 +9,7 @@ import { DispacitoLogo } from "./DispacitoLogo";
 
 export function Hero() {
   return (
-    <section className="relative w-full overflow-hidden bg-[#3E151E]">
+    <section id="top" className="relative w-full overflow-hidden bg-[#3E151E]">
       {/* Editorial Duo-Block Grid */}
       <div className="grid grid-cols-1 lg:grid-cols-12 min-h-[90vh]">
         {/* LEFT PANEL: Deep Burgundy Wine Section */}
