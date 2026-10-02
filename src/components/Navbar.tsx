@@ -48,7 +48,7 @@ export function Navbar() {
             href="#menu"
             className="text-white hover:text-[#D5C2AE] text-xs sm:text-sm tracking-[0.2em] uppercase font-medium transition-colors relative py-1 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-[#D5C2AE] hover:after:w-full after:transition-all after:duration-300"
           >
-            La Carte
+            Le Menu
           </Link>
           <Link
             href="#location"
@@ -107,7 +107,7 @@ export function Navbar() {
               onClick={() => setMobileMenuOpen(false)}
               className="text-white hover:text-[#D5C2AE] py-1 text-sm tracking-[0.25em] uppercase font-medium"
             >
-              La Carte
+              Le Menu
             </Link>
             <Link
               href="#location"

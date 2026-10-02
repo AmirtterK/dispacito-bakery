@@ -46,7 +46,7 @@ export function Footer() {
             <ul className="space-y-2 text-sm text-[#D5C2AE]/80">
               <li>
                 <Link href="#menu" className="hover:text-[#FAF7F2] transition-colors">
-                  Notre Carte & Sélections
+                  Notre Menu & Sélections
                 </Link>
               </li>
               <li>

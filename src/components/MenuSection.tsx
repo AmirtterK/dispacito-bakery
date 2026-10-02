@@ -40,7 +40,7 @@ export function MenuSection() {
         aria-hidden="true"
         className="absolute top-10 right-4 select-none pointer-events-none text-[#D5C2AE]/20 font-editorial font-bold text-[14rem] md:text-[20rem] z-0 leading-none"
       >
-        Carte
+        Menu
       </div>
 
       <div className="container mx-auto px-4 md:px-8 relative z-10 max-w-7xl">
@@ -53,7 +53,7 @@ export function MenuSection() {
           </div>
 
           <h2 className="font-editorial text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight text-[#4A2619] sm:text-[#523321]">
-            Notre Carte
+            Notre Menu
           </h2>
         </div>
 
@@ -111,7 +111,7 @@ export function MenuSection() {
               }}
               className="px-7 py-2.5 rounded-full bg-[#5A3825] text-white text-xs uppercase tracking-wider font-semibold hover:bg-[#3E151E] transition-all"
             >
-              Afficher Toute la Carte
+              Afficher Tout le Menu
             </button>
           </div>
         ) : (
