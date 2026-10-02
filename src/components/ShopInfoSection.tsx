@@ -27,7 +27,8 @@ export function ShopInfoSection() {
         {/* Info Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
           {/* Card 1: Operating Hours */}
-          <div className="lg:col-span-4 bg-white p-8 rounded-3xl border border-[#D5C2AE] shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-500 flex flex-col justify-between animate-bottom delay-100">
+          <div className="lg:col-span-4 animate-bottom delay-100">
+            <div className="h-full bg-white p-8 rounded-3xl border border-[#D5C2AE] shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-[transform,box-shadow] duration-300 ease-out flex flex-col justify-between">
             <div>
               <div className="w-12 h-12 rounded-2xl bg-[#3E151E] text-[#D5C2AE] flex items-center justify-center mb-6">
                 <Clock className="w-6 h-6 text-[#C69A68]" />
@@ -59,10 +60,12 @@ export function ShopInfoSection() {
               <span className="w-2.5 h-2.5 rounded-full bg-emerald-600 animate-ping" />
               <span>Portes ouvertes • Café fraîchement moulu</span>
             </div>
+            </div>
           </div>
 
           {/* Card 2: Location & Directions */}
-          <div className="lg:col-span-4 bg-[#3E151E] text-[#FAF7F2] p-8 rounded-3xl border border-[#D5C2AE]/20 shadow-md hover:shadow-2xl hover:-translate-y-1.5 transition-all duration-500 flex flex-col justify-between animate-bottom delay-200">
+          <div className="lg:col-span-4 animate-bottom delay-200">
+            <div className="h-full bg-[#3E151E] text-[#FAF7F2] p-8 rounded-3xl border border-[#D5C2AE]/20 shadow-md hover:shadow-2xl hover:-translate-y-1.5 transition-[transform,box-shadow] duration-300 ease-out flex flex-col justify-between">
             <div>
               <div className="w-12 h-12 rounded-2xl bg-[#2B0D14] text-[#D5C2AE] flex items-center justify-center mb-6">
                 <MapPin className="w-6 h-6 text-[#C69A68]" />
@@ -100,10 +103,12 @@ export function ShopInfoSection() {
                 Stationnement & Voiturier Disponibles
               </p>
             </div>
+            </div>
           </div>
 
           {/* Card 3: Social & Community */}
-          <div className="lg:col-span-4 bg-white p-8 rounded-3xl border border-[#D5C2AE] shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-500 flex flex-col justify-between animate-bottom delay-300">
+          <div className="lg:col-span-4 animate-bottom delay-300">
+            <div className="h-full bg-white p-8 rounded-3xl border border-[#D5C2AE] shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-[transform,box-shadow] duration-300 ease-out flex flex-col justify-between">
             <div>
               <div className="w-12 h-12 rounded-2xl bg-[#3E151E] text-[#D5C2AE] flex items-center justify-center mb-6">
                 <InstagramIcon className="w-6 h-6 text-[#C69A68]" />
@@ -145,6 +150,7 @@ export function ShopInfoSection() {
                 <span>Nous Suivre sur Instagram</span>
                 <ExternalLink className="w-3.5 h-3.5" />
               </a>
+            </div>
             </div>
           </div>
         </div>
