@@ -41,13 +41,8 @@ export function StorySection() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#280B12]/80 via-transparent to-black/20" />
 
-                  {/* Corner stamp details */}
-                  <div className="absolute top-4 left-4 text-[0.65rem] tracking-[0.3em] uppercase text-[#D5C2AE] font-light bg-black/40 backdrop-blur-md px-3 py-1 rounded-full border border-white/10">
-                    Pause glacée
-                  </div>
-
-                  <div className="absolute bottom-4 left-4 right-4 text-xs text-[#FAF7F2]/90 font-light">
-                    <span className="font-editorial italic text-[#C69A68] text-sm block mb-0.5">
+                  <div className="absolute bottom-4 left-4 right-4 text-sm text-[#FAF7F2]/90 font-light">
+                    <span className="font-editorial italic text-[#C69A68] text-base block mb-0.5">
                       Café frappé
                     </span>
                     Café, lait et fraîcheur réunis dans un frappé onctueux.
@@ -155,13 +150,8 @@ export function StorySection() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#240A10]/85 via-transparent to-black/20" />
 
-                  {/* Corner stamp details */}
-                  <div className="absolute top-6 right-6 text-[0.65rem] tracking-[0.3em] uppercase text-[#FAF7F2] font-light bg-black/40 backdrop-blur-md px-3 py-1 rounded-full border border-white/10">
-                      Douceur Maison
-                  </div>
-
-                  <div className="absolute bottom-4 left-4 right-4 text-xs text-[#FAF7F2]/90 font-light">
-                    <span className="font-editorial italic text-[#C69A68] text-sm block mb-0.5">
+                  <div className="absolute bottom-4 left-4 right-4 text-sm text-[#FAF7F2]/90 font-light">
+                    <span className="font-editorial italic text-[#C69A68] text-base block mb-0.5">
                       Cheesecake au Chocolat
                     </span>
                     Cheesecake fondant servi avec un nappage de chocolat.
@@ -190,6 +180,12 @@ export function StorySection() {
                     className="object-cover group-hover:scale-108 transition-transform duration-700 ease-out"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-[#280B12]/80 via-transparent to-black/20" />
+                  <div className="absolute bottom-4 left-4 right-4 text-sm text-[#FAF7F2]/90 font-light">
+                    <span className="font-editorial italic text-[#C69A68] text-base block mb-0.5">
+                      Cookies Gourmands
+                    </span>
+                    Assortiment de douceurs à partager.
+                  </div>
                 </div>
               </div>
 
