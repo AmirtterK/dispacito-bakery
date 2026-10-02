@@ -33,8 +33,8 @@ export function StorySection() {
               <div className="relative rounded-[2.2rem] overflow-hidden border border-[#D5C2AE]/30 bg-[#280B12] p-3 sm:p-4 shadow-2xl">
                 <div className="relative aspect-[4/5] w-full rounded-[1.8rem] overflow-hidden">
                   <Image
-                    src="/images/croissant.WebP"
-                    alt="Dispacito 27-Layer Butter Croissant"
+                    src="/images/red-mirror-cake.png"
+                    alt="Dispacito Red Mirror Glaze Cake"
                     fill
                     sizes="(max-width: 1024px) 100vw, 550px"
                     className="object-cover group-hover:scale-108 transition-transform duration-700 ease-out"
@@ -147,8 +147,8 @@ export function StorySection() {
               <div className="relative rounded-t-[6.5rem] rounded-b-[2.2rem] overflow-hidden border border-[#D5C2AE]/35 bg-[#240A10] p-3 sm:p-4 shadow-2xl">
                 <div className="relative aspect-[4/5] w-full rounded-t-[5.5rem] rounded-b-[1.8rem] overflow-hidden">
                   <Image
-                    src="/images/cappuccino.WebP"
-                    alt="Dispacito Specialty Coffee Extraction"
+                    src="/images/chocolate-frappe-mug.png"
+                    alt="Dispacito Chocolate Frappe"
                     fill
                     sizes="(max-width: 1024px) 100vw, 550px"
                     className="object-cover group-hover:scale-108 transition-transform duration-700 ease-out"
@@ -183,8 +183,8 @@ export function StorySection() {
               <div className="relative rounded-[2.2rem] overflow-hidden border border-[#D5C2AE]/30 bg-[#280B12] p-3 sm:p-4 shadow-2xl">
                 <div className="relative aspect-[4/5] w-full rounded-[1.8rem] overflow-hidden">
                   <Image
-                    src="/images/French-test.WebP"
-                    alt="Dispacito French Toast and Brunch Spread"
+                    src="/images/charcuterie-board.png"
+                    alt="Dispacito Charcuterie Board"
                     fill
                     sizes="(max-width: 1024px) 100vw, 550px"
                     className="object-cover group-hover:scale-108 transition-transform duration-700 ease-out"
@@ -197,8 +197,8 @@ export function StorySection() {
               <div className="absolute -bottom-8 -right-4 sm:-bottom-10 sm:-right-8 w-44 sm:w-56 rounded-2xl overflow-hidden bg-[#FAF7F2] p-2.5 shadow-2xl border border-[#D5C2AE] rotate-3 group-hover:rotate-0 transition-transform duration-500 hidden sm:block">
                 <div className="relative aspect-square w-full rounded-xl overflow-hidden bg-[#2B0D14]">
                   <Image
-                    src="/images/American-breakfast.WebP"
-                    alt="Brunch Gathering at Dispacito"
+                    src="/images/iced-caramel-latte.png"
+                    alt="Dispacito Iced Caramel Latte"
                     fill
                     sizes="200px"
                     className="object-cover"

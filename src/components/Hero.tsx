@@ -147,8 +147,8 @@ export function Hero() {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-[#3E151E]/20 bg-[#3E151E] group hover:-translate-y-1.5 transition-transform duration-500">
               <div className="aspect-[4/3] relative">
                 <Image
-                  src="/images/croissant.WebP"
-                  alt="Artisanal French Butter Croissant"
+                  src="/images/burgundy-truffle-bomb.png"
+                  alt="Dispacito Burgundy Truffle Praline"
                   fill
                   sizes="(max-width: 768px) 100vw, 450px"
                   className="object-cover group-hover:scale-110 transition-transform duration-700 opacity-90"
