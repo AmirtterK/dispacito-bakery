@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Playfair_Display, Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
 import { ScrollAnimationProvider } from "@/components/ScrollAnimationProvider";
 import shopData from "@/data/shop-info.json";
 
@@ -64,6 +65,7 @@ export default function RootLayout({
         <ScrollAnimationProvider>
           {children}
         </ScrollAnimationProvider>
+        <Analytics />
       </body>
     </html>
   );
